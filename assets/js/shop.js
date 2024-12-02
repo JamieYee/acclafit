@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <span class="review">(${product.reviews})</span>
                 </div>
                 <span class="price"><span class="rustrot-Price-amount amount"><span
-                    class="rustrot-Price-currencySymbol">$</span>${product.price}</span></span>
+                    class="rustrot-Price-currencySymbol">£</span>${product.price}</span></span>
                 <div class="rustrot-product-details__short-description">
                   <p>${product.description}</p>
                   <ul>

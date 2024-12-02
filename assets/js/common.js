@@ -1,12 +1,23 @@
 console.log("common.js 被加载了");
 renderCartItems();
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
+    // 遍历所有的文本节点
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+
+    let node;
+    while (node = walker.nextNode()) {
+      if (node.nodeValue.includes('$')) {
+        // 替换文本中的美元符号为英镑
+        node.nodeValue = node.nodeValue.replace(/\$/g, '£');
+      }
+    }
+
     // 定义新的联系方式
     const newContactInfo = {
         band: "Acclafit",
         bandSite: "https://acclafit.com/",
-        phone: "(+987) 654 321",
-        email: "newemail@example.com",
+        phone: "(+44) 7496 274719",
+        email: "amazonbeboss@gmail.com",
         address: "123 Elm Street, Springfield, IL, 62704, USA"
     };
     document.title = newContactInfo.band;
@@ -68,7 +79,7 @@ async function renderCartItems() {
                 <a href="single-product.html?product_id=${product.id}">
                     <img src="${product.images[0]}" class="attachment-rustrot_thumbnail size-rustrot_thumbnail" alt="${product.name}" width="600" height="778">${product.name}&nbsp;
                 </a>
-                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">$</span>${product.price}</span>
+                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">£</span>${product.price}</span>
                 </span>
             </li>
         `;
@@ -77,5 +88,5 @@ async function renderCartItems() {
         cartList.insertAdjacentHTML('beforeend', listItem);
     }
 
-    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${total}`;
+    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">£</span>${total}`;
 }

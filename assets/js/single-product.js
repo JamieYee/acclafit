@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // 这里你可以继续填充其他部分，如产品标题、价格等
                 document.querySelector('.page-title').textContent = product.name;
-                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${product.price}`;
+                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">£</span>${product.price}`;
                 document.querySelector('.stock.in-stock span').textContent = product.availability;
                 document.querySelector('.sku').textContent = product.sku;
                 document.querySelector('input[name="product_id"]').value = product.id;
