@@ -3286,7 +3286,8 @@ td {
 ========================================================================== */
 
 .header-control {
-    text-align: right;
+    text-align: center;
+    padding-right: 15%; /* 根据需要调整偏移量 */
 }
 
 .header-control-inner {

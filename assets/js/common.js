@@ -6,11 +6,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let node;
     while (node = walker.nextNode()) {
-      if (node.nodeValue.includes('$')) {
-        // 替换文本中的美元符号为英镑
-        node.nodeValue = node.nodeValue.replace(/\$/g, '£');
-      }
+        if (node.nodeValue.includes('$')) {
+            // 替换文本中的美元符号为英镑
+            node.nodeValue = node.nodeValue.replace(/\$/g, '£');
+        }
     }
+
+
+    // 获取 <ul> 元素
+    const menu = document.querySelector('#menu-primary-menu');
+    menu.innerHTML = '';
+    // 创建第一个菜单项 Home
+    const homeItem = document.createElement('li');
+    homeItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
+    homeItem.innerHTML = `
+    <a class="rustrot-menu-item-title" title="Home" href="index.html">Home</a>`;
+
+    // 创建第二个菜单项 About
+    const aboutItem = document.createElement('li');
+    aboutItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
+    aboutItem.innerHTML = `
+    <a class="rustrot-menu-item-title" title="About" href="about.html">About</a>`;
+
+    // 将这两个菜单项添加到 <ul> 中
+    menu.appendChild(homeItem);
+    menu.appendChild(aboutItem);
 
     // 定义新的联系方式
     const newContactInfo = {

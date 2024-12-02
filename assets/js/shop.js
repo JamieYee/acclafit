@@ -21,19 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <a href="#" class="button yith-wcqv-button" data-product_id="24">Quick View</a>
                 <div class="group-button">
-                   <!-- 
-                  <div class="yith-wcwl-add-to-wishlist">
-                    <div class="yith-wcwl-add-button show">
-                      <a href="wishlist.html" class="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                  <div class="rustrot product compare-button">
-                    <a href="compare.html" class="compare button">Compare</a>
-                  </div>
-                  -->
                   <a href="#" class="button yith-wcqv-button">Quick View</a>
                   <div class="add-to-cart">
-                    <a href="cart.html" class="button product_type_simple add_to_cart_button">Add to cart</a>
+                    <a href="cart.html" class="button product_type_simple add_to_cart_button" data-product-id="${product.id}">Add to cart</a>
                   </div>
                 </div>
               </div>
@@ -58,14 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
               <div class="group-button">
                 <div class="group-button-inner">
-                  <div class="yith-wcwl-add-to-wishlist">
-                    <div class="yith-wcwl-add-button show">
-                      <a href="wishlist.html" class="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                  <div class="rustrot product compare-button">
-                    <a href="compare.html" class="compare button">Compare</a>
-                  </div>
                   <a href="#" class="button yith-wcqv-button">Quick View</a>
                   <div class="add-to-cart">
                     <a href="#" class="button product_type_variable add_to_cart_button">Select options</a>
@@ -77,6 +59,29 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         // 添加到容器中
         container.innerHTML += productHTML;
+      });
+
+      // 获取所有的 "Add to cart" 按钮
+      const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+      // 为每个按钮添加点击事件监听器
+      addToCartButtons.forEach(button => {
+        button.addEventListener('click', function (event) {
+          // 阻止默认跳转行为（如果你想要手动处理）
+          event.preventDefault();
+          // 获取当前按钮的产品 ID
+          const productId = this.getAttribute('data-product-id');
+          // 显示产品 ID 或者其他相关操作
+          console.log('Product ID:', productId);
+          // 从 LocalStorage 中获取当前的 Map（如果有）
+          let cartMap = JSON.parse(localStorage.getItem('cartMap')) || {};
+          console.log(cartMap);
+          // 更新 Map 数据
+          cartMap[productId] = 1;
+          // 保存回 LocalStorage
+          localStorage.setItem('cartMap', JSON.stringify(cartMap));
+          // 跳转到购物车页面
+          window.location.href = "cart.html"; // 跳转到 cart.html 页面
+        });
       });
     })
     .catch(error => console.error('Error loading products:', error));
