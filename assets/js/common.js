@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bandSite: "https://acclafit.com/",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
-        address: "123 Elm Street, Springfield, IL, 62704, USA"
+        address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
     };
     document.title = newContactInfo.band;
     // 修改电话
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 修改地址
-    const addressElement = document.querySelector('.rustrot-listitem.style-01.contact .listitem-list li:nth-child(3) a');
+    const addressElement = document.querySelector('.rustrot-listitem.style-01.contact .listitem-list li:nth-child(3)');
     if (addressElement) {
         addressElement.innerHTML = `<span>Address</span> ${newContactInfo.address}`; // 更新地址内容
     }
