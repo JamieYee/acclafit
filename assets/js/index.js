@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
       //   'assets/js/functions.js',
       // ];
       // reloadScripts(scriptsToReload);
+      // 加载另一个 JS 文件
+      const script = document.createElement('script');
+      script.src = 'assets/js/slick.min.js'; // 替换为你的 JS 文件路径
+      document.body.appendChild(script);
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
@@ -47,7 +51,11 @@ function renderProduct(product, layoutType, container) {
   if (product.category.includes(layoutType)) {
     const productItem = document.createElement('div');
     if (layoutType === 'new') {
-      productItem.classList.add('product-item', 'recent-product', 'style-01', 'rows-space-0');
+      productItem.classList.add(
+        'product-item', 'recent-product', 'style-01', 'rows-space-0', 'post-93', 'product', 'type-product', 'status-publish', 'has-post-thumbnail',
+        'product_cat-light', 'product_cat-table', 'product_cat-new-arrivals', 'product_tag-table', 'product_tag-sock', 'first', 'instock', 'shipping-taxable',
+        'purchasable', 'product-type-simple'
+      );
       productItem.innerHTML = `
           <div class="product-inner tooltip-left">
             <div class="product-thumb">
@@ -80,7 +88,11 @@ function renderProduct(product, layoutType, container) {
             </div>
           </div> `;
     } else if (layoutType === 'best') {
-      productItem.classList.add('product-item', 'on_sale', 'style-06', 'rows-space-30');
+      productItem.classList.add(
+        'product-item', 'best-selling', 'style-06', 'rows-space-30', 'post-25', 'product', 'type-product',
+        'status-publish', 'has-post-thumbnail', 'product_cat-light', 'product_cat-chair', 'product_cat-specials',
+        'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
+      );
       productItem.innerHTML = `     <div class="product-inner">
                         <div class="product-thumb">
                             <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="-1">
@@ -102,8 +114,11 @@ function renderProduct(product, layoutType, container) {
                         </div>
                     </div> `;
     } else if (layoutType === 'sale') {
-      // 创建产品卡片的 HTML 结构
-      productItem.classList.add('product-item', 'on_sale', 'style-06', 'rows-space-30');
+      productItem.classList.add(
+        'product-item', 'best-selling', 'style-06', 'rows-space-30', 'post-25', 'product', 'type-product',
+        'status-publish', 'has-post-thumbnail', 'product_cat-light', 'product_cat-chair', 'product_cat-specials',
+        'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
+      );
       productItem.innerHTML = `
                    <div class="product-inner">
                                      <div class="product-thumb">
