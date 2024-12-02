@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       });
-      // 示例：重载多个脚本
       // 定义需要重新加载的脚本
       const scriptsToReload = [
         'assets/js/jquery-1.12.4.min.js',
@@ -38,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
         'assets/js/mobilemenu.js',
         'assets/js/functions.js',
       ];
-      removeExistingScripts(); 
       reloadScripts(scriptsToReload);
     })
     .catch(error => console.error('Error fetching product data:', error));
@@ -134,30 +132,17 @@ function renderProduct(product, layoutType, container) {
   }
 }
 
-// 移除所有现有的 <script> 标签
-function removeExistingScripts() {
-  const scripts = document.querySelectorAll('script');
-  scripts.forEach(script => {
-      if (script.src) {
-          script.remove();
-      }
-  });
-}
-
-
 // 重载多个脚本
 function reloadScripts(scriptUrls) {
   scriptUrls.forEach(url => {
     // 查找当前页面中已加载的同名脚本
     const existingScript = document.querySelector(`script[src="${url}"]`);
-
     if (existingScript) {
       existingScript.parentNode.removeChild(existingScript); // 移除旧的 script 标签
     }
 
     // 创建并加载新的 script 标签
     const script = document.createElement('script');
-    script.type = 'text/javascript';
     script.src = url;
 
     // 你可以根据需要为每个脚本设置事件监听器
@@ -169,6 +154,6 @@ function reloadScripts(scriptUrls) {
       console.error(`Error loading script: ${url}`);
     };
 
-    document.head.appendChild(script); // 将新的 script 标签添加到 head 中
+    document.body.appendChild(script); // 将新的 script 标签添加到 head 中
   });
 }
