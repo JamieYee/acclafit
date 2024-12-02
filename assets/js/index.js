@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         'assets/js/jquery-1.12.4.min.js',
         'assets/js/lightbox.min.js',
         'assets/js/slick.min.js',
+        'assets/js/functions.js',
       ];
       reloadScripts(scriptsToReload);
     })
@@ -124,6 +125,7 @@ function renderProduct(product, layoutType, container) {
 
 // 重载多个脚本
 function reloadScripts(scriptUrls) {
+  console.log(`Script loaded: ${scriptUrls}`);
   scriptUrls.forEach(url => {
     // 查找当前页面中已加载的同名脚本
     const existingScript = document.querySelector(`script[src="${url}"]`);
