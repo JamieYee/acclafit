@@ -16,12 +16,18 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = '';
         // 遍历产品数据，为每种布局生成不同结构
         products.forEach(product => {
-          if(product.category.includes(layoutType)){
-            renderProduct(product,layoutType,container)
+          if (product.category.includes(layoutType)) {
+            renderProduct(product, layoutType, container)
           }
         });
       });
-
+      // 示例：重载多个脚本
+      const scriptsToReload = [
+        'assets/js/jquery-1.12.4.min.js',
+        'assets/js/lightbox.min.js',
+        'assets/js/slick.min.js',
+      ];
+      reloadScripts(scriptsToReload);
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
@@ -114,4 +120,32 @@ function renderProduct(product, layoutType, container) {
     // 插入到指定的容器
     container.appendChild(productItem);
   }
+}
+
+// 重载多个脚本
+function reloadScripts(scriptUrls) {
+  scriptUrls.forEach(url => {
+    // 查找当前页面中已加载的同名脚本
+    const existingScript = document.querySelector(`script[src="${url}"]`);
+
+    if (existingScript) {
+      existingScript.parentNode.removeChild(existingScript); // 移除旧的 script 标签
+    }
+
+    // 创建并加载新的 script 标签
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+    // 你可以根据需要为每个脚本设置事件监听器
+    script.onload = function () {
+      console.log(`Script loaded: ${url}`);
+    };
+
+    script.onerror = function () {
+      console.error(`Error loading script: ${url}`);
+    };
+
+    document.head.appendChild(script); // 将新的 script 标签添加到 head 中
+  });
 }
