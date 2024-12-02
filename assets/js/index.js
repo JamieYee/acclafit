@@ -12,14 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
         const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
         console.log(layoutType)
         // 清空容器，避免重复插入
-        // container.innerHTML = '';
+        container.innerHTML = '';
         // 遍历产品数据，为每种布局生成不同结构
         products.forEach(product => {
           if (product.category.includes(layoutType)) {
             renderProduct(product, layoutType, container)
           }
         });
+        container.trigger("create");
       });
+
       // // 定义需要重新加载的脚本
       // const scriptsToReload = [
       //   'assets/js/jquery-1.12.4.min.js',
