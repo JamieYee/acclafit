@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
         console.log(layoutType)
         // 清空容器，避免重复插入
-        container.innerHTML = '';
+        // container.innerHTML = '';
         // 遍历产品数据，为每种布局生成不同结构
         products.forEach(product => {
           if (product.category.includes(layoutType)) {
@@ -37,10 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
       //   'assets/js/functions.js',
       // ];
       // reloadScripts(scriptsToReload);
-      // 加载另一个 JS 文件
-      const script = document.createElement('script');
-      script.src = 'assets/js/slick.min.js'; // 替换为你的 JS 文件路径
-      document.body.appendChild(script);
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
