@@ -4,23 +4,37 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
+       // 获取所有 .response-product 容器
+  $('.response-product').each(function() {
+    const container = $(this); // jQuery 对象
+    const layoutType = container.data('category'); // 使用 data-category 属性来区分布局类型
+
+    // 清空容器，避免重复插入
+    container.empty();
+
+    // 遍历产品数据，为每种布局生成不同结构
+    products.forEach(product => {
+      if (product.category.includes(layoutType)) {
+        renderProduct(product, layoutType, container[0]); // 注意：container 是 jQuery 对象，传递原生 DOM 元素给 renderProduct
+      }
+    });
+  });
       // 获取所有 .response-product 容器
-      const containers = document.querySelectorAll('.response-product');
-      // 遍历每个容器
-      containers.forEach(container => {
-        // 根据容器属性确定布局类型
-        const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
-        console.log(layoutType)
-        // 清空容器，避免重复插入
-        container.innerHTML = '';
-        // 遍历产品数据，为每种布局生成不同结构
-        products.forEach(product => {
-          if (product.category.includes(layoutType)) {
-            renderProduct(product, layoutType, container)
-          }
-        });
-        container.trigger("create");
-      });
+      // const containers = document.querySelectorAll('.response-product');
+      // // 遍历每个容器
+      // containers.forEach(container => {
+      //   // 根据容器属性确定布局类型
+      //   const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
+      //   // 清空容器，避免重复插入
+      //   container.innerHTML = '';
+      //   // 遍历产品数据，为每种布局生成不同结构
+      //   products.forEach(product => {
+      //     if (product.category.includes(layoutType)) {
+      //       renderProduct(product, layoutType, container)
+      //     }
+      //   });
+      // });
+    
 
       // // 定义需要重新加载的脚本
       // const scriptsToReload = [
