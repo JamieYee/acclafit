@@ -19,23 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 });
             });
-            // 定义需要重新加载的脚本
-            const scriptsToReload = [
-                'assets/js/jquery-1.12.4.min.js',
-                'assets/js/bootstrap.min.js',
-                'assets/js/chosen.min.js',
-                'assets/js/jquery.scrollbar.min.js',
-                'assets/js/lightbox.min.js',
-                'assets/js/magnific-popup.min.js',
-                'assets/js/slick.min.js',
-                'assets/js/jquery.zoom.min.js',
-                'assets/js/threesixty.min.js',
-                'assets/js/jquery-ui.min.js',
-                'assets/js/jarallax.min.js',
-                'assets/js/mobilemenu.js',
-                'assets/js/functions.js',
-            ];
-            reloadScripts(scriptsToReload);
+            document.body.offsetHeight;
+            // // 定义需要重新加载的脚本
+            // const scriptsToReload = [
+            //     'assets/js/jquery-1.12.4.min.js',
+            //     'assets/js/bootstrap.min.js',
+            //     'assets/js/chosen.min.js',
+            //     'assets/js/jquery.scrollbar.min.js',
+            //     'assets/js/lightbox.min.js',
+            //     'assets/js/magnific-popup.min.js',
+            //     'assets/js/slick.min.js',
+            //     'assets/js/jquery.zoom.min.js',
+            //     'assets/js/threesixty.min.js',
+            //     'assets/js/jquery-ui.min.js',
+            //     'assets/js/jarallax.min.js',
+            //     'assets/js/mobilemenu.js',
+            //     'assets/js/functions.js',
+            // ];
+            // reloadScripts(scriptsToReload);
         })
         .catch(error => console.error('Error fetching product data:', error));
 });
