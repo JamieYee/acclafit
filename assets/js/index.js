@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
         // 清空容器，避免重复插入
         console.log('222');
-        container.innerHTML = '';
+        // container.innerHTML = '';
         console.log('333');
         // 遍历产品数据，为每种布局生成不同结构
         // products.forEach(product => {
