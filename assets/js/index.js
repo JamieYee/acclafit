@@ -32,28 +32,18 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       });
       console.log('444');
-      // document.body.offsetHeight;
-      // // 定义需要重新加载的脚本
-      // const scriptsToReload = [
-      //     'assets/js/jquery-1.12.4.min.js',
-      //     'assets/js/bootstrap.min.js',
-      //     'assets/js/chosen.min.js',
-      //     'assets/js/jquery.scrollbar.min.js',
-      //     'assets/js/lightbox.min.js',
-      //     'assets/js/magnific-popup.min.js',
-      //     'assets/js/slick.min.js',
-      //     'assets/js/jquery.zoom.min.js',
-      //     'assets/js/threesixty.min.js',
-      //     'assets/js/jquery-ui.min.js',
-      //     'assets/js/jarallax.min.js',
-      //     'assets/js/mobilemenu.js',
-      //     'assets/js/functions.js',
-      // ];
-      // reloadScripts(scriptsToReload);
+      forceReflow();
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
 
+
+function forceReflow() {
+  const body = document.body;
+  body.style.display = 'none';
+  body.offsetHeight; // 触发重排
+  body.style.display = '';
+}
 
 function renderProduct(product, layoutType, container) {
   // 检查是否符合当前 layoutType 的分类
