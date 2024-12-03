@@ -1,39 +1,42 @@
 // script.js
 document.addEventListener("DOMContentLoaded", () => {
-
-  const observer = new MutationObserver(() => {
-    if (document.querySelector('.slick-list.draggable')) {
-      console.log(`元素动态加载后存在 at ${new Date().getTime()}`);
-    }
-  });
-
-  // 开始观察
-  observer.observe(document.body, { childList: true, subtree: true });
-  // 读取 JSON 数据
   fetch('products.json')
-    .then(response => response.json())
-    .then(products => {
-      console.log('111');
-      //获取所有.response - product 容器
-      const containers = document.querySelectorAll('.response-product');
-      // 遍历每个容器
-      containers.forEach(container => {
-        // 根据容器属性确定布局类型
-        const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
-        // 清空容器，避免重复插入
-        console.log('222');
-        // container.innerHTML = '';
-        console.log('333');
-        // 遍历产品数据，为每种布局生成不同结构
-        // products.forEach(product => {
-        //   if (product.category.includes(layoutType)) {
-        //     renderProduct(product, layoutType, container)
-        //   }
-        // });
-      });
-      console.log('4446');
-    })
-    .catch(error => console.error('Error fetching product data:', error));
+      .then(response => response.json())
+      .then(products => {
+          // 获取所有.response-product 容器
+          const containers = document.querySelectorAll('.response-product');
+          
+          // 遍历每个容器
+          containers.forEach(container => {
+              // 根据容器属性确定布局类型
+              const layoutType = container.dataset.category;
+              
+              // 清空容器，避免重复插入
+              container.innerHTML = '';
+              
+              // 遍历产品数据，为每种布局生成不同结构
+              products.forEach(product => {
+                  if (product.category.includes(layoutType)) {
+                      renderProduct(product, layoutType, container);
+                  }
+              });
+
+              // 在渲染完成后，观察特定容器内的 .slick-list.draggable
+              const observer = new MutationObserver(() => {
+                  const slickList = container.querySelector('.slick-list.draggable');
+                  if (slickList) {
+                      console.log('元素动态加载后存在');
+                      observer.disconnect(); // 断开观察器
+                  }
+              });
+
+              // 开始观察特定容器
+              observer.observe(container, { childList: true, subtree: true });
+          });
+
+          console.log('11111');
+      })
+      .catch(error => console.error('Error fetching product data:', error));
 });
 
 
