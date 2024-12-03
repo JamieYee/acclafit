@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       });
-      console.log('444');
-      forceReflow();
+      console.log('4445');
+      reloadCSS();
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
@@ -43,6 +43,15 @@ function forceReflow() {
   body.style.display = 'none';
   body.offsetHeight; // 触发重排
   body.style.display = '';
+}
+
+function reloadCSS() {
+  // 查找指定的 <link> 标签
+  const link = document.querySelector('link[href="assets/css/slick.min.css"]');
+  if (link) {
+      // 通过修改 href 来防止缓存
+      link.href = 'assets/css/slick.min.css?t=' + new Date().getTime();
+  }
 }
 
 function renderProduct(product, layoutType, container) {
