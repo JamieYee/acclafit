@@ -1,45 +1,81 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // const observer = new MutationObserver(() => {
+  //   const draggableList = document.querySelector('.slick-list.draggable');
+  //   if (draggableList) {
+  //     // 动态元素已加载，开始处理 JSON 数据
+  //     console.log('元素动态加载后存在');
+
+  //     // 断开观察器，防止重复触发
+  //     observer.disconnect();
+
+  //     // 读取 JSON 数据
+  //     fetch('products.json')
+  //       .then(response => response.json())
+  //       .then(products => {
+  //         const containers = document.querySelectorAll('.response-product');
+  //         containers.forEach(container => {
+  //           const layoutType = container.dataset.category;
+  //           const slickList = container.querySelector('.slick-list.draggable');
+  //           if (slickList) {
+  //             // 再找到 slick-list.draggable 下的 .slick-track
+  //             const slickTrack = slickList.querySelector('.slick-track');
+  //             if (slickTrack) {
+  //               // 插入新元素之前，可以清空 .slick-track 的内容（根据需求）
+  //               slickTrack.innerHTML = '';
+  //               products.forEach(product => {
+  //                 if (product.category.includes(layoutType)) {
+  //                   renderProduct(product, layoutType, slickTrack)
+  //                 }
+  //               });
+  //             } else {
+  //               console.warn('slick-list.draggable not found inside container');
+  //             }
+  //           } else {
+  //             console.warn('slick-track not found inside slick-list.draggable');
+  //           }
+  //         });  console.log('Product data loaded and elements created.');
+  //         $(slickTrack).slick('reinit'); // 假设使用了 Slick 插件
+
+  //       })
+  //       .catch(error => console.error('Error fetching product data:', error));
+  //   }
+  // });
+
+  // // 开始观察整个文档
+  // observer.observe(document.body, { childList: true, subtree: true });
+
   const observer = new MutationObserver(() => {
     if (document.querySelector('.slick-list.draggable')) {
       console.log('元素动态加载后存在');
-      // 打印所有 .response-product 容器的内容
-      const containers = document.querySelectorAll('.response-product');
-      containers.forEach((container, index) => {
-        console.log(`容器 ${index + 1}:`, container.innerHTML); // 打印每个容器的 HTML 内容
-      });
     }
   });
 
   // 开始观察
   observer.observe(document.body, { childList: true, subtree: true });
 
-  setTimeout(() => {
-    // 读取 JSON 数据
-    fetch('products.json')
-      .then(response => response.json())
-      .then(products => {
-        //获取所有.response - product 容器
-        const containers = document.querySelectorAll('.response-product');
-        // 遍历每个容器
-        containers.forEach((container, index) => {
-          // 根据容器属性确定布局类型
-          const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
-              // 获取当前存在的 slick 容器
-          const slickList = container.querySelector('.slick-list.draggable');
-          const slickTrack = slickList.querySelector('.slick-track');
-          // 清空容器，避免重复插入
-          slickTrack.innerHTML = '';
-          console.log(layoutType)
-          // 遍历产品数据，为每种布局生成不同结构
-          products.forEach(product => {
-            if (product.category.includes(layoutType)) {
-              renderProduct(product, layoutType, slickTrack)
-            }
-          });
+  // 读取 JSON 数据
+  fetch('products.json')
+    .then(response => response.json())
+    .then(products => {
+      //获取所有.response - product 容器
+      const containers = document.querySelectorAll('.response-product');
+      // 遍历每个容器
+      containers.forEach(container => {
+        // 根据容器属性确定布局类型
+        const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
+        // 清空容器，避免重复插入
+        container.innerHTML = '';
+        // 遍历产品数据，为每种布局生成不同结构
+        products.forEach(product => {
+          if (product.category.includes(layoutType)) {
+            renderProduct(product, layoutType, container)
+          }
         });
-      })
-      .catch(error => console.error('Error fetching product data:', error));
-  }, 50);
+      });
+      console.log('111111');
+    })
+    .catch(error => console.error('Error fetching product data:', error));
+
 });
 
 function renderProduct(product, layoutType, container) {
