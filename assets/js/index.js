@@ -25,29 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = '';
         console.log('333');
         // 遍历产品数据，为每种布局生成不同结构
-        products.forEach(product => {
-          if (product.category.includes(layoutType)) {
-            renderProduct(product, layoutType, container)
-          }
-        });
+        // products.forEach(product => {
+        //   if (product.category.includes(layoutType)) {
+        //     renderProduct(product, layoutType, container)
+        //   }
+        // });
       });
       console.log('4446');
-      reloadAllCSS();
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
 
-
-function reloadAllCSS() {
-  // 获取所有的 <link> 标签
-  const links = document.querySelectorAll('link[rel="stylesheet"]');
-  
-  links.forEach(link => {
-      // 生成一个新的 URL 加时间戳来避免缓存
-      const newHref = link.href.split('?')[0] + '?t=' + new Date().getTime();
-      link.href = newHref;
-  });
-}
 
 function renderProduct(product, layoutType, container) {
   // 检查是否符合当前 layoutType 的分类
