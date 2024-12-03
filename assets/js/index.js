@@ -31,27 +31,22 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       });
-      console.log('4445');
-      reloadCSS();
+      console.log('4446');
+      reloadAllCSS();
     })
     .catch(error => console.error('Error fetching product data:', error));
 });
 
 
-function forceReflow() {
-  const body = document.body;
-  body.style.display = 'none';
-  body.offsetHeight; // 触发重排
-  body.style.display = '';
-}
-
-function reloadCSS() {
-  // 查找指定的 <link> 标签
-  const link = document.querySelector('link[href="assets/css/slick.min.css"]');
-  if (link) {
-      // 通过修改 href 来防止缓存
-      link.href = 'assets/css/slick.min.css?t=' + new Date().getTime();
-  }
+function reloadAllCSS() {
+  // 获取所有的 <link> 标签
+  const links = document.querySelectorAll('link[rel="stylesheet"]');
+  
+  links.forEach(link => {
+      // 生成一个新的 URL 加时间戳来避免缓存
+      const newHref = link.href.split('?')[0] + '?t=' + new Date().getTime();
+      link.href = newHref;
+  });
 }
 
 function renderProduct(product, layoutType, container) {
