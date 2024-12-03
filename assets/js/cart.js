@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </td>
                 <td class="product-price" data-title="Price">
                     <span class="rustrot-Price-amount amount">
-                        <span class="rustrot-Price-currencySymbol">£</span>${product.price}
+                        <span class="rustrot-Price-currencySymbol">$</span>${product.price}
                     </span>
                 </td>
                 <td class="product-quantity" data-title="Quantity">
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </td>
                 <td class="product-subtotal" data-title="Total">
                     <span class="rustrot-Price-amount amount">
-                        <span class="rustrot-Price-currencySymbol">£</span>${subtotal}
+                        <span class="rustrot-Price-currencySymbol">$</span>${subtotal}
                     </span>
                 </td>
             `;
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // 将更新行添加到 cartBody
         cartList.appendChild(updateRow);
 
-        document.querySelector('.order-total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">£</span>${total}`;
+        document.querySelector('.order-total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${total}`;
 
         // 删除商品事件监听
         document.querySelectorAll('.remove').forEach(button => {
@@ -118,10 +118,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 renderCartItems(); // 重新渲染购物车
             });
         });
-
     }
     // 调用渲染函数
     renderCartItems();
+    loadCommonJs();
 
     function loadCommonJs() {
         let script = document.createElement('script');

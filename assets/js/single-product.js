@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // 获取 URL 中的 `product_id` 查询参数
     const urlParams = new URLSearchParams(window.location.search);
     const productId = parseInt(urlParams.get('product_id'));
@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // 这里你可以继续填充其他部分，如产品标题、价格等
                 document.querySelector('.page-title').textContent = product.name;
-                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">£</span>${product.price}`;
+                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${product.price}`;
                 document.querySelector('.stock.in-stock span').textContent = product.availability;
                 document.querySelector('.sku').textContent = product.sku;
                 document.querySelector('input[name="product_id"]').value = product.id;
-                document.querySelector('.single_add_to_cart_button').addEventListener('click', function(event) {
+                document.querySelector('.single_add_to_cart_button').addEventListener('click', function (event) {
                     event.preventDefault(); // 阻止按钮的默认行为（例如表单提交）
                     // 获取 product_id 和 quantity 值
                     let quantityValue = document.querySelector('input[name="quantity"]').value;
@@ -84,17 +84,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     featureList.appendChild(liElement);
                 });
 
-
                 // 加载另一个 JS 文件
-                const script = document.createElement('script');
-                script.src = 'assets/js/mobilemenu.js'; // 替换为你的 JS 文件路径
-                document.body.appendChild(script);
+                reloadScripts(['assets/js/mobilemenu.js', 'assets/js/common.js']);
             } else {
                 console.log('Product not found');
             }
+
         })
         .catch(error => console.error('Error loading products:', error));
-
 
     function populateLinks(containerSelector, title, items) {
         const container = document.querySelector(containerSelector);
@@ -119,3 +116,29 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 })
+
+// 重载多个脚本
+function reloadScripts(scriptUrls) {
+    scriptUrls.forEach(url => {
+        // 查找当前页面中已加载的同名脚本
+        const existingScript = document.querySelector(`script[src="${url}"]`);
+        if (existingScript) {
+            existingScript.parentNode.removeChild(existingScript); // 移除旧的 script 标签
+        }
+
+        // 创建并加载新的 script 标签
+        const script = document.createElement('script');
+        script.src = url;
+
+        // 你可以根据需要为每个脚本设置事件监听器
+        script.onload = function () {
+            console.log(`Script loaded: ${url}`);
+        };
+
+        script.onerror = function () {
+            console.error(`Error loading script: ${url}`);
+        };
+
+        document.body.appendChild(script); // 将新的 script 标签添加到 head 中
+    });
+}

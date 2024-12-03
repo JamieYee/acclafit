@@ -1,18 +1,6 @@
 console.log("common.js 被加载了");
-renderCartItems();
-document.addEventListener("DOMContentLoaded", function () {
-    // 遍历所有的文本节点
-    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-
-    let node;
-    while (node = walker.nextNode()) {
-        if (node.nodeValue.includes('$')) {
-            // 替换文本中的美元符号为英镑
-            node.nodeValue = node.nodeValue.replace(/\$/g, '£');
-        }
-    }
-
-
+setCommon();
+async function setCommon() {
     // 获取 <ul> 元素
     const menu = document.querySelector('#menu-primary-menu');
     menu.innerHTML = '';
@@ -34,12 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 定义新的联系方式
     const newContactInfo = {
+        currency: "£",
         band: "Acclafit",
         bandSite: "https://acclafit.com/",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
         address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
     };
+    // 遍历所有的文本节点
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+
+    let node;
+    while (node = walker.nextNode()) {
+        if (node.nodeValue.includes('$')) {
+            // 替换文本中的美元符号为英镑
+            node.nodeValue = node.nodeValue.replace(/\$/g, newContactInfo.currency);
+        }
+    }
     document.title = newContactInfo.band;
     // 修改电话
     const phoneElement = document.querySelector('.rustrot-listitem.style-01.contact .listitem-list li:nth-child(1) a');
@@ -59,14 +58,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (addressElement) {
         addressElement.innerHTML = `<span>Address</span> ${newContactInfo.address}`; // 更新地址内容
     }
-
-
     // 获取版权信息的 <p> 标签
     document.querySelector('.section-016 .col-md-6 p').innerHTML = `© 2024 by <a href="${newContactInfo.bandSite}">${newContactInfo.band}</a>. All Rights Reserved.`;
-})
+
+    renderCartItems(newContactInfo.currency);
+}
 
 // 定义一个函数，根据 cartMap 动态生成购物车列表
-async function renderCartItems() {
+async function renderCartItems(currencySymbol = '$') {
     // 从本地存储中获取 cartMap 数据
     let cartMap = JSON.parse(localStorage.getItem('cartMap')) || {};
     // 设置为 cartMap 的长度
@@ -99,7 +98,7 @@ async function renderCartItems() {
                 <a href="single-product.html?product_id=${product.id}">
                     <img src="${product.images[0]}" class="attachment-rustrot_thumbnail size-rustrot_thumbnail" alt="${product.name}" width="600" height="778">${product.name}&nbsp;
                 </a>
-                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">£</span>${product.price}</span>
+                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${product.price}</span>
                 </span>
             </li>
         `;
@@ -108,5 +107,5 @@ async function renderCartItems() {
         cartList.insertAdjacentHTML('beforeend', listItem);
     }
 
-    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">£</span>${total}`;
+    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${total}`;
 }

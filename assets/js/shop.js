@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <span class="review">(${product.reviews})</span>
                 </div>
                 <span class="price"><span class="rustrot-Price-amount amount"><span
-                    class="rustrot-Price-currencySymbol">£</span>${product.price}</span></span>
+                    class="rustrot-Price-currencySymbol">$</span>${product.price}</span></span>
                 <div class="rustrot-product-details__short-description">
                   <p>${product.description}</p>
                   <ul>
@@ -83,6 +83,37 @@ document.addEventListener("DOMContentLoaded", () => {
           window.location.href = "cart.html"; // 跳转到 cart.html 页面
         });
       });
+
+      // 加载另一个 JS 文件
+      const script = document.createElement('script');
+      script.src = 'assets/js/common.js'; // 替换为你的 JS 文件路径
+      document.body.appendChild(script);
     })
     .catch(error => console.error('Error loading products:', error));
 });
+
+// 重载多个脚本
+function reloadScripts(scriptUrls) {
+  scriptUrls.forEach(url => {
+    // 查找当前页面中已加载的同名脚本
+    const existingScript = document.querySelector(`script[src="${url}"]`);
+    if (existingScript) {
+      existingScript.parentNode.removeChild(existingScript); // 移除旧的 script 标签
+    }
+
+    // 创建并加载新的 script 标签
+    const script = document.createElement('script');
+    script.src = url;
+
+    // 你可以根据需要为每个脚本设置事件监听器
+    script.onload = function () {
+      console.log(`Script loaded: ${url}`);
+    };
+
+    script.onerror = function () {
+      console.error(`Error loading script: ${url}`);
+    };
+
+    document.body.appendChild(script); // 将新的 script 标签添加到 head 中
+  });
+}
