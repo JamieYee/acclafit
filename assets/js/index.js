@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const observer = new MutationObserver(() => {
     if (document.querySelector('.slick-list.draggable')) {
       console.log('元素动态加载后存在');
-    }else{
-      console.log('元素动态加载后不存在');
     }
   });
 
@@ -15,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
+      console.log('111');
       //获取所有.response - product 容器
       const containers = document.querySelectorAll('.response-product');
       // 遍历每个容器
@@ -22,7 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // 根据容器属性确定布局类型
         const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
         // 清空容器，避免重复插入
+        console.log('222');
         container.innerHTML = '';
+        console.log('333');
         // 遍历产品数据，为每种布局生成不同结构
         products.forEach(product => {
           if (product.category.includes(layoutType)) {
@@ -30,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       });
+      console.log('444');
       // document.body.offsetHeight;
       // // 定义需要重新加载的脚本
       // const scriptsToReload = [
