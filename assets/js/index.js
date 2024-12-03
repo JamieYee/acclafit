@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const observer = new MutationObserver(() => {
     if (document.querySelector('.slick-list.draggable')) {
-      console.log('元素动态加载后存在');
+      console.log(`元素动态加载后存在 at ${new Date().getTime()}`);
     }
   });
 
