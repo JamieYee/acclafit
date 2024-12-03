@@ -2,11 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const observer = new MutationObserver(() => {
     if (document.querySelector('.slick-list.draggable')) {
       console.log('元素动态加载后存在');
-      // 打印所有 .response-product 容器的内容
-      const containers = document.querySelectorAll('.response-product');
-      containers.forEach((container, index) => {
-        console.log(`容器 ${index + 1}:`, container.innerHTML); // 打印每个容器的 HTML 内容
-      });
     }
   });
 
@@ -24,18 +19,43 @@ document.addEventListener("DOMContentLoaded", () => {
         containers.forEach((container, index) => {
           // 根据容器属性确定布局类型
           const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
-              // 获取当前存在的 slick 容器
-          const slickList = container.querySelector('.slick-list.draggable');
-          const slickTrack = slickList.querySelector('.slick-track');
+          // 获取当前存在的 slick 容器
+          // const slickList = container.querySelector('.slick-list.draggable');
+          // const slickTrack = slickList.querySelector('.slick-track');
+          // 获取原有的 slick 配置
+          const slickConfig = JSON.parse(container.dataset.slick);
+          const responsiveConfig = JSON.parse(container.dataset.responsive);
+          // 设置 prevArrow 和 nextArrow 配置为图片或 HTML
+          const prevArrow = '<span class="fa fa-angle-left prev slick-arrow slick-disabled" aria-disabled="true" style="display: block;"></span>';
+          const nextArrow = '<span class="fa fa-angle-right next slick-arrow" style="display: block;" aria-disabled="false"></span>';
+
+          // 将 prevArrow 和 nextArrow 添加到配置中
+          slickConfig.prevArrow = prevArrow;
+          slickConfig.nextArrow = nextArrow;
+
+          // 先销毁现有的 slick 实例（如果存在）
+          if ($(container).hasClass('slick-initialized')) {
+            $(container).slick('unslick');
+          }
           // 清空容器，避免重复插入
-          slickTrack.innerHTML = '';
-          console.log(layoutType)
+          container.innerHTML = '';
           // 遍历产品数据，为每种布局生成不同结构
           products.forEach(product => {
             if (product.category.includes(layoutType)) {
-              renderProduct(product, layoutType, slickTrack)
+              renderProduct(product, layoutType, container)
             }
           });
+          // 重新初始化 slick 轮播
+          if (typeof $ !== 'undefined' && $.fn.slick) {
+            $(container)
+              .removeClass('slick-initialized slick-slider')
+              .slick({
+                ...slickConfig,
+                responsive: responsiveConfig,
+              });
+          }
+
+          console.log(`容器 ${index + 1} 处理完成`);
         });
       })
       .catch(error => console.error('Error fetching product data:', error));
