@@ -1,186 +1,46 @@
-[{
+[
+    {
         "id": 1,
-        "name": "Basic Long",
-        "price": "61.00",
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "6666666666666666666bulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
-        "details": [
-            "Water-resistant fabric with soft lycra detailing inside1",
-            "Clean zip-front, and three piece hood2",
-            "Subtle branding and diagonal panel detail3"
-        ],
-        "images": [
-            "assets/images/apro131-2.jpg",
-            "assets/images/apro132-1.jpg",
-            "assets/images/apro133-1.jpg",
-            "assets/images/apro134-1.jpg"
-        ],
-        "thumbnail_images": [
-            "assets/images/apro131-2-100x100.jpg",
-            "assets/images/apro132-1-100x100.jpg",
-            "assets/images/apro133-1-100x100.jpg",
-            "assets/images/apro134-1-100x100.jpg"
-        ],
-        "sku": "885B7122222",
-        "categories": [
-            "Clothing1",
-            "New arrivals2",
-            "Footwear3"
-        ],
-        "tags": [
-            "Clothing1",
-            "Sock22222"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Gray Light Jacket",
-        "price": "29.99",
+        "name": "ASMODA Fitness Tracker",
+        "price": "89.99",
         "category": "new,best,sale",
         "availability": "In stock",
-        "description": "Pellentesque 88888888888888888888888888 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
+        "description": "Fitness Tracker (Answer/Dial Call), Smart Watch with 1.47 Inches HD Touch Display, 130+ Sport Modes Activity Tracker with Sleep Monitor, IP68 Waterproof Tracker for Android&iPhone Women Men.",
         "details": [
-            "Bluetooth Call and Voice Assistant: Smart watch built-in microphone and HD speaker, you can make and receive calls directly from this smart watches for men. You can also use the built-in voice assistant to ask questions, control music playback and more",
-            "1.85-inch HD Screen and DIY Dials: Android smart watch features a TFT HD color screen and curved 3D curved glass for superior picture quality and touch sensitivity. You can also choose from 100+ dials or personalize the dial with your favorite photos",
-            "24 Hour Health Monitoring: The built-in sensor of the smart watches for women has been upgraded, which is faster and more powerful in monitoring heart rate, blood oxygen and sleep, and provides a comprehensive sleep quality analysis (non-medical standard)",
-            "IP68 Waterproof: Sports watch is IP68 waterproof, and can be used normally even when washing hands, washing face or sweating. (Note: Not suitable for long-term immersion in water)",
-            "Responsible Attitude: Jacoosa provides 12 months warranty service, when you receive the smartwatch, if you encounter quality problems, operation problems, charging problems, etc., please let us know in time and we will provide a solution within 24 hours"
+            "【Ultra-large 1.47 inches Display】The spacious 1.47 inches display offers a 10.5% larger viewing area, ensuring clear visibility whether you're checking your heart rate during a run or reading messages on your way to work with the B8 Fitness Tracker.",
+            "【130+ Multiple Fitness Modes】Whether you prefer outdoor or indoor workouts, the B7 activity tracker caters to your needs. It features 7 professional workout modes including walking, running and cycling, alongside 131+ customizable workout modes, providing personalized fitness tracking and guidance to keep you active and engaged.",
+            "【24/7 Heart Rate & SpO2 Monitor】Stay informed with realtime dynamic heart rate and SpO2 monitoring on the B7 fitness tracker. Receive alerts for high heart rate or SpO3 levels, ensuring round-the-clock health monitoring.",
+            "【Sleep Better Every Night 】Utilizing advanced sleep monitoring technologies, the B8 Smart Watch tracks your sleep stages such as deep sleep, light sleep, and REM, helping you improve sleep habits and overall sleep quality.",
+            "【IP68 Waterproof Watch】Enjoy worry-free wear with the B7 fitness tracker, whether you're splashing in shallow water or snorkeling. It boasts a 6 ATM water resistance rating, making it suitable for daily use.",
+            "【Convenience in Daily Life】Stay connected and organized with notifications for messages, calls, weather updates, and reminders. Control music playback, use the remote shutter for photos, and locate your phone easily, enhancing convenience throughout your day.",
+            "【Extra-long Battery Life】With its efficient hardware and software design, the B7 fitness tracker ensures up to 5-8 days of battery life on a single charge. Charging is hassle-free with automatic adsorption when placed near the charger."
         ],
         "images": [
-            "assets/images/P5星光1.jpg",
-            "assets/images/P5星光2.jpg",
-            "assets/images/P5星光3.jpg",
-            "assets/images/P5星光4.jpg",
-            "assets/images/P5星光5.jpg"
+            "assets/images/B7-Black-1.jpg",
+            "assets/images/B7-Black-2.jpg",
+            "assets/images/B7-Black-3.jpg",
+            "assets/images/B7-Black-4.jpg",
+            "assets/images/B7-Black-5.jpg",
+            "assets/images/B7-Black-6.jpg"
         ],
         "thumbnail_images": [
-            "assets/images/P5星光1-mini.jpg",
-            "assets/images/P5星光2-mini.jpg",
-            "assets/images/P5星光3-mini.jpg",
-            "assets/images/P5星光4-mini.jpg",
-            "assets/images/P5星光5-mini.jpg"
+            "assets/images/B7-Black-1-mini.jpg",
+            "assets/images/B7-Black-2-mini.jpg",
+            "assets/images/B7-Black-3-mini.jpg",
+            "assets/images/B7-Black-4-mini.jpg",
+            "assets/images/B7-Black-5-mini.jpg",
+            "assets/images/B7-Black-6-mini.jpg"
         ],
-        "sku": "B0DG21BXV6",
+        "sku": "B0DP62X7SY",
         "categories": [
-            "Bluetooth Call",
-            "Message Reminder",
-            "Health Monitoring"
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
         ],
         "tags": [
-            "Android 4.0+",
-            "iOS 9.0+"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Damen Kleider",
-        "price": "29.99",
-        "category": "new,best,sale",
-        "availability": "In stock",
-        "description": "Pellentesque 88888888888888888888888888 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
-        "details": [
-            "Bluetooth Call and Voice Assistant: Smart watch built-in microphone and HD speaker, you can make and receive calls directly from this smart watches for men. You can also use the built-in voice assistant to ask questions, control music playback and more",
-            "1.85-inch HD Screen and DIY Dials: Android smart watch features a TFT HD color screen and curved 3D curved glass for superior picture quality and touch sensitivity. You can also choose from 100+ dials or personalize the dial with your favorite photos",
-            "24 Hour Health Monitoring: The built-in sensor of the smart watches for women has been upgraded, which is faster and more powerful in monitoring heart rate, blood oxygen and sleep, and provides a comprehensive sleep quality analysis (non-medical standard)",
-            "IP68 Waterproof: Sports watch is IP68 waterproof, and can be used normally even when washing hands, washing face or sweating. (Note: Not suitable for long-term immersion in water)",
-            "Responsible Attitude: Jacoosa provides 12 months warranty service, when you receive the smartwatch, if you encounter quality problems, operation problems, charging problems, etc., please let us know in time and we will provide a solution within 24 hours"
-        ],
-        "images": [
-            "assets/images/apro13-1-270x350.jpg",
-            "assets/images/apro132-1.jpg",
-            "assets/images/apro131-2.jpg",
-            "assets/images/apro132-1.jpg"
-        ],
-        "thumbnail_images": [
-            "assets/images/watch1_mini.jpg",
-            "assets/images/apro132-1-100x100.jpg",
-            "assets/images/apro131-2-100x100.jpg",
-            "assets/images/apro132-1-100x100.jpg"
-        ],
-        "sku": "B0DG21BXV6",
-        "categories": [
-            "Bluetooth Call",
-            "Message Reminder",
-            "Health Monitoring"
-        ],
-        "tags": [
-            "Android 4.0+",
-            "iOS 9.0+"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Print Pleated Skirt",
-        "price": "49.99",
-        "category": "best,sale",
-        "availability": "In stock",
-        "description": "Pellentesque 88888888888888888888888888 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
-        "details": [
-            "Bluetooth Call and Voice Assistant: Smart watch built-in microphone and HD speaker, you can make and receive calls directly from this smart watches for men. You can also use the built-in voice assistant to ask questions, control music playback and more",
-            "1.85-inch HD Screen and DIY Dials: Android smart watch features a TFT HD color screen and curved 3D curved glass for superior picture quality and touch sensitivity. You can also choose from 100+ dials or personalize the dial with your favorite photos",
-            "24 Hour Health Monitoring: The built-in sensor of the smart watches for women has been upgraded, which is faster and more powerful in monitoring heart rate, blood oxygen and sleep, and provides a comprehensive sleep quality analysis (non-medical standard)",
-            "IP68 Waterproof: Sports watch is IP68 waterproof, and can be used normally even when washing hands, washing face or sweating. (Note: Not suitable for long-term immersion in water)",
-            "Responsible Attitude: Jacoosa provides 12 months warranty service, when you receive the smartwatch, if you encounter quality problems, operation problems, charging problems, etc., please let us know in time and we will provide a solution within 24 hours"
-        ],
-        "images": [
-            "assets/images/apro302-270x350.jpg",
-            "assets/images/apro132-1.jpg",
-            "assets/images/apro131-2.jpg",
-            "assets/images/apro132-1.jpg"
-        ],
-        "thumbnail_images": [
-            "assets/images/watch1_mini.jpg",
-            "assets/images/apro132-1-100x100.jpg",
-            "assets/images/apro131-2-100x100.jpg",
-            "assets/images/apro132-1-100x100.jpg"
-        ],
-        "sku": "B0DG21BXV6",
-        "categories": [
-            "Bluetooth Call",
-            "Message Reminder",
-            "Health Monitoring"
-        ],
-        "tags": [
-            "Android 4.0+",
-            "iOS 9.0+"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Wool polo shirt",
-        "price": "19.99",
-        "category": "new,sale",
-        "availability": "In stock",
-        "description": "Pellentesque 88888888888888888888888888 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.",
-        "details": [
-            "Bluetooth Call and Voice Assistant: Smart watch built-in microphone and HD speaker, you can make and receive calls directly from this smart watches for men. You can also use the built-in voice assistant to ask questions, control music playback and more",
-            "1.85-inch HD Screen and DIY Dials: Android smart watch features a TFT HD color screen and curved 3D curved glass for superior picture quality and touch sensitivity. You can also choose from 100+ dials or personalize the dial with your favorite photos",
-            "24 Hour Health Monitoring: The built-in sensor of the smart watches for women has been upgraded, which is faster and more powerful in monitoring heart rate, blood oxygen and sleep, and provides a comprehensive sleep quality analysis (non-medical standard)",
-            "IP68 Waterproof: Sports watch is IP68 waterproof, and can be used normally even when washing hands, washing face or sweating. (Note: Not suitable for long-term immersion in water)",
-            "Responsible Attitude: Jacoosa provides 12 months warranty service, when you receive the smartwatch, if you encounter quality problems, operation problems, charging problems, etc., please let us know in time and we will provide a solution within 24 hours"
-        ],
-        "images": [
-            "assets/images/apro31-1-270x350.jpg",
-            "assets/images/apro132-1.jpg",
-            "assets/images/apro131-2.jpg",
-            "assets/images/apro132-1.jpg"
-        ],
-        "thumbnail_images": [
-            "assets/images/watch1_mini.jpg",
-            "assets/images/apro132-1-100x100.jpg",
-            "assets/images/apro131-2-100x100.jpg",
-            "assets/images/apro132-1-100x100.jpg"
-        ],
-        "sku": "B0DG21BXV6",
-        "categories": [
-            "Bluetooth Call",
-            "Message Reminder",
-            "Health Monitoring"
-        ],
-        "tags": [
-            "Android 4.0+",
-            "iOS 9.0+"
+            "Convenience in Daily Life",
+            "Sock"
         ]
     }
 ]
