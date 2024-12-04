@@ -13811,7 +13811,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 
 .parallax-home {
     position: relative;
-    background-image: url("../images/parallax-home.jpg");
+    background-image: url("../images/home-bg1.jpg");
     padding-top: 280px;
     padding-bottom: 380px;
 }
@@ -14363,7 +14363,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
     margin-bottom: 30px;
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: url(../images/test-bg-2.jpg);
+    background-image: url(../images/home-bg2.jpg);
     background-position: top center;
     background-size: cover;
     border-radius: 0;
