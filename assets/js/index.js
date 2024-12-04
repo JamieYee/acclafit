@@ -54,7 +54,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         console.log(`容器 ${index + 1} 处理完成`);
       });
-
+      // 调用该方法，传入包含按钮的容器选择器
+      setupAddToCartButtons();
       // 加载另一个 JS 文件
       const script = document.createElement('script');
       script.src = 'assets/js/common.js'; // 替换为你的 JS 文件路径
@@ -161,6 +162,33 @@ function renderProduct(product, layoutType, container) {
     // 插入到指定的容器
     container.appendChild(productItem);
   }
+}
+
+function setupAddToCartButtons() {
+  const buttons = document.querySelectorAll('.add_to_cart_button');
+  // 为每个按钮绑定点击事件
+  buttons.forEach(button => {
+    button.addEventListener('click', function (event) {
+      // 阻止默认行为，防止页面跳转
+      event.preventDefault();
+      // 获取产品的 ID
+      const productId = button.getAttribute('data-product-id');
+      console.log(productId)
+      if (!productId) {
+        console.error('Product ID not found for button:', button);
+        return;
+      }
+      // 从 LocalStorage 中获取当前的 Map（如果有）
+      let cartMap = JSON.parse(localStorage.getItem('cartMap')) || {};
+      console.log(cartMap);
+      // 更新 Map 数据
+      cartMap[productId] = 1;
+      // 保存回 LocalStorage
+      localStorage.setItem('cartMap', JSON.stringify(cartMap));
+      // 跳转到购物车页面
+      window.location.href = "cart.html"; // 跳转到 cart.html 页面
+    });
+  });
 }
 
 // 重载多个脚本

@@ -8,6 +8,39 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('products.json')
         .then(response => response.json())
         .then(products => {
+            // 判断是否除了 id 为 productId 的数据外，其他没有其他数据
+            let hasOnlyId = products.filter(item => item.id !== productId).length === 0;
+            // 如果只有 id 为 1 的数据，隐藏 div 
+            if (hasOnlyId) {
+                document.querySelector('.dreaming_related-product').style.display = 'none';
+            } else {
+                document.querySelector('.dreaming_related-product').style.marginBottom = '100px';
+                const container = document.querySelector('.owl-slick');
+                // 获取原有的 slick 配置
+                const slickConfig = JSON.parse(container.dataset.slick);
+                const responsiveConfig = JSON.parse(container.dataset.responsive);
+                // 先销毁现有的 slick 实例（如果存在）
+                if ($(container).hasClass('slick-initialized')) {
+                    $(container).slick('unslick');
+                }
+                // 清空容器，避免重复插入
+                container.innerHTML = '';
+                // 遍历产品数据，为每种布局生成不同结构
+                products
+                    .filter(product => product.id !== productId) // 过滤掉 id 为 productId 的产品
+                    .forEach(product => renderProduct(product, container));
+                // 重新初始化 slick 轮播
+                if (typeof $ !== 'undefined' && $.fn.slick) {
+                    $(container)
+                        .removeClass('slick-initialized slick-slider')
+                        .slick({
+                            ...slickConfig,
+                            responsive: responsiveConfig,
+                        });
+                }
+                // 调用该方法，传入包含按钮的容器选择器
+                setupAddToCartButtons();
+            }
             // 查找匹配的产品
             const product = products.find(p => p.id === productId);
             console.log(product.id); // 输出 product 对象中的 id
@@ -140,5 +173,73 @@ function reloadScripts(scriptUrls) {
         };
 
         document.body.appendChild(script); // 将新的 script 标签添加到 head 中
+    });
+}
+
+
+function renderProduct(product, container) {
+    const productItem = document.createElement('div');
+    productItem.classList.add(
+        'product-item', 'style-01', 'post-27', 'product', 'type-product',
+        'status-publish', 'has-post-thumbnail', 'product_cat-table', 'product_cat-new-arrivals',
+        'product_cat-lamp', 'product_tag-table', 'product_tag-sock', 'instock',
+        'shipping-taxable', 'purchasable', 'product-type-variable', 'has-default-attributes'
+    );
+    productItem.innerHTML = `
+                 <div class="product-inner tooltip-left">
+                                <div class="product-thumb">
+                                    <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="0">
+                                        <img class="img-responsive" src="${product.images[0]}" alt="${product.name}" width="600" height="778">
+                                    </a>
+                                    <div class="flash"><span class="onnew"><span class="text">New</span></span>
+                                    </div>
+                                    <div class="group-button">
+                                        <div class="add-to-cart">
+                                            <a href="cart.html" class="button product_type_variable add_to_cart_button" data-product-id="${product.id}">Add to
+                                            cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info equal-elem">
+                                    <h3 class="product-name product_title">
+                                          <a href="single-product.html?product_id=${product.id}" tabindex="0">${product.name}</a>
+                                    </h3>
+                                    <div class="rating-wapper nostar">
+                                        <div class="star-rating"><span style="width:0%">Rated <strong
+                                            class="rating">0</strong> out of 5</span></div>
+                                        <span class="review">(0)</span></div>
+                                    <span class="price"><span class="rustrot-Price-amount amount"><span
+                                        class="rustrot-Price-currencySymbol">$</span>${product.price}</span>
+                                    </span>
+                                </div>
+                            </div>`;
+    // 插入到指定的容器
+    container.appendChild(productItem);
+}
+
+function setupAddToCartButtons() {
+    const buttons = document.querySelectorAll('.add_to_cart_button');
+    // 为每个按钮绑定点击事件
+    buttons.forEach(button => {
+        button.addEventListener('click', function (event) {
+            // 阻止默认行为，防止页面跳转
+            event.preventDefault();
+            // 获取产品的 ID
+            const productId = button.getAttribute('data-product-id');
+            console.log(productId)
+            if (!productId) {
+                console.error('Product ID not found for button:', button);
+                return;
+            }
+            // 从 LocalStorage 中获取当前的 Map（如果有）
+            let cartMap = JSON.parse(localStorage.getItem('cartMap')) || {};
+            console.log(cartMap);
+            // 更新 Map 数据
+            cartMap[productId] = 1;
+            // 保存回 LocalStorage
+            localStorage.setItem('cartMap', JSON.stringify(cartMap));
+            // 跳转到购物车页面
+            window.location.href = "cart.html"; // 跳转到 cart.html 页面
+        });
     });
 }
