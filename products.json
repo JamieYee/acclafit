@@ -1,46 +1,246 @@
-[
-    {
-        "id": 1,
-        "name": "ASMODA Fitness Tracker",
-        "price": "89.99",
-        "category": "new,best,sale",
-        "availability": "In stock",
-        "description": "Fitness Tracker (Answer/Dial Call), Smart Watch with 1.47 Inches HD Touch Display, 130+ Sport Modes Activity Tracker with Sleep Monitor, IP68 Waterproof Tracker for Android&iPhone Women Men.",
-        "details": [
-            "【Ultra-large 1.47 inches Display】The spacious 1.47 inches display offers a 10.5% larger viewing area, ensuring clear visibility whether you're checking your heart rate during a run or reading messages on your way to work with the B8 Fitness Tracker.",
-            "【130+ Multiple Fitness Modes】Whether you prefer outdoor or indoor workouts, the B7 activity tracker caters to your needs. It features 7 professional workout modes including walking, running and cycling, alongside 131+ customizable workout modes, providing personalized fitness tracking and guidance to keep you active and engaged.",
-            "【24/7 Heart Rate & SpO2 Monitor】Stay informed with realtime dynamic heart rate and SpO2 monitoring on the B7 fitness tracker. Receive alerts for high heart rate or SpO3 levels, ensuring round-the-clock health monitoring.",
-            "【Sleep Better Every Night 】Utilizing advanced sleep monitoring technologies, the B8 Smart Watch tracks your sleep stages such as deep sleep, light sleep, and REM, helping you improve sleep habits and overall sleep quality.",
-            "【IP68 Waterproof Watch】Enjoy worry-free wear with the B7 fitness tracker, whether you're splashing in shallow water or snorkeling. It boasts a 6 ATM water resistance rating, making it suitable for daily use.",
-            "【Convenience in Daily Life】Stay connected and organized with notifications for messages, calls, weather updates, and reminders. Control music playback, use the remote shutter for photos, and locate your phone easily, enhancing convenience throughout your day.",
-            "【Extra-long Battery Life】With its efficient hardware and software design, the B7 fitness tracker ensures up to 5-8 days of battery life on a single charge. Charging is hassle-free with automatic adsorption when placed near the charger."
-        ],
-        "images": [
-            "assets/images/B7-Black-1.webp",
-            "assets/images/B7-Black-2.webp",
-            "assets/images/B7-Black-3.webp",
-            "assets/images/B7-Black-4.webp",
-            "assets/images/B7-Black-5.webp",
-            "assets/images/B7-Black-6.webp"
-        ],
-        "thumbnail_images": [
-            "assets/images/B7-Black-1-mini.webp",
-            "assets/images/B7-Black-2-mini.webp",
-            "assets/images/B7-Black-3-mini.webp",
-            "assets/images/B7-Black-4-mini.webp",
-            "assets/images/B7-Black-5-mini.webp",
-            "assets/images/B7-Black-6-mini.webp"
-        ],
-        "sku": "B0DP62X7SY",
-        "categories": [
-            "Sports & Outdoors",
-            "Exercise & Fitness",
-            "Fitness Technology",
-            "Fitness Trackers"
-        ],
-        "tags": [
-            "Convenience in Daily Life",
-            "Sock"
-        ]
-    }
+[{
+    "id": 1,
+    "name": "BUZHIWU Water Dental Flosser Teeth Pick",
+    "price": 169.99,
+"category": "new,best,sale",
+    "availability": "In stock",
+    "description": "Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ML Rechargeable Travel Irrigation Cleaner IPX7 Waterproof Electric Flossing Machine for Teeth Cleaning RF-001.",
+    "details": [
+        "【Efficient Cleaning Technology】BUZHIWU water toothpick can effectively clean the gaps between teeth, remove small food residues and plaque, reduce gum bleeding, and improve gum swelling and pain. In addition, it can also be used for cleaning braces and dental implants. Our product is mainly used for deep cleaning of teeth and has been professionally recognized by the American dental team. It can remove 99% of tooth stains and solve oral problems such as bad breath.",
+        "【300ML Super Large Water Tank】This dental cleaner is equipped with a 300ML large water tank, which not only meets the needs of carrying, but also avoids frequent refilling of water, making your oral cleaning more convenient and efficient.",
+        "【3 Intensity Modes & 3 Different nozzles】Our water flosser has three different intensity modes, which are controlled by two buttons to switch on and off the product. There are three different types of strength that can meet most usage environments, and the simple operation method allows for quick mastery even when using our product for the first time. We have equipped this dental cleaner with 2 standard nozzles, 1 plaque nozzle and 1 brush nozzle, to meet the needs of different usage scenarios.",
+        "【 40 day ultra long battery life & portable 】The water pick battery life is twice that of other products. Just charge for 4 hours and it can be used for up to 40 days (calculated as 2 times a day for 2 minutes each time). We have adapted this water toothpick with a Type-C charging cable (excluding power adapter), so that you no longer need to carry additional cables, making it convenient for you to carry and organize during your travels.",
+        "【IPX7 Waterproof】Our wireless water flosser has excellent IPX7 waterproof performance, ensuring safe use in humid environments. The new high-performance motor provides more efficient water flow and ensures that the product is not easily damaged after long-term use.",
+        "【User friendly and secure】After professional evaluation by the American dental team, our dental flosser offers three different strength modes to meet the needs of 99% of different age groups. The ergonomic grip and four interchangeable tips ensure a comfortable and multifunctional experience.",
+        "【Product Content】1x Water Dental Flosser; 4x Replaceable Tips; 1x Type-C Charging Cable (excluding adapter); 1x User Manual; 1x Product Qualification Certificate.",      "Warning: When the battery level of the product is completely depleted, it will significantly reduce the battery life. In order to reduce battery loss and protect the battery's endurance, you should promptly connect the charger to charge the product when the battery level is below about 20% (when the battery level is displayed as 1 grid, we recommend that you connect the charger to charge the product in a timely manner). And Please drain the remaining water from the water tank after use."
+    ],
+    "images": [
+        "assets/images/WF-Black-1.webp",
+        "assets/images/WF-Black-2.webp",
+        "assets/images/WF-Black-3.webp",
+        "assets/images/WF-Black-4.webp",
+        "assets/images/WF-Black-5.webp",
+        "assets/images/WF-Black-6.webp",
+        "assets/images/WF-Black-7.webp"
+    ],
+    "thumbnail_images": [
+        "assets/images/WF-Black-Mini-1.webp",
+        "assets/images/WF-Black-Mini-2.webp",
+        "assets/images/WF-Black-Mini-3.webp",
+        "assets/images/WF-Black-Mini-4.webp",
+        "assets/images/WF-Black-Mini-5.webp",
+        "assets/images/WF-Black-Mini-6.webp",
+        "assets/images/WF-Black-Mini-7.webp"
+    ],
+    "sku": "B0DCNMQVL8",
+    "categories": [
+        "Health & Household",
+        "Oral Care",
+        "Dental Floss & Picks",
+        "Power Dental Flossers"
+    ],
+    "tags": [
+        "40-Day Battery Life",
+        "IPX7 Waterproof",
+        "3 intensity modes",
+        "300ML Capacity Water Reservoir",
+        "Multiple Tips"
+    ]
+},
+{
+    "id": 2,
+    "name": "BUZHIWU Water Dental Flosser Teeth Pick",
+    "price": 169.99,
+"category": "new,best,sale",
+    "availability": "In stock",
+    "description": "Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ML Rechargeable Travel Irrigation Cleaner IPX7 Waterproof Electric Flossing Machine for Teeth Cleaning RF-001.",
+    "details": [
+        "【Efficient Cleaning Technology】BUZHIWU water toothpick can effectively clean the gaps between teeth, remove small food residues and plaque, reduce gum bleeding, and improve gum swelling and pain. In addition, it can also be used for cleaning braces and dental implants. Our product is mainly used for deep cleaning of teeth and has been professionally recognized by the American dental team. It can remove 99% of tooth stains and solve oral problems such as bad breath.",
+        "【300ML Super Large Water Tank】This dental cleaner is equipped with a 300ML large water tank, which not only meets the needs of carrying, but also avoids frequent refilling of water, making your oral cleaning more convenient and efficient.",
+        "【3 Intensity Modes & 3 Different nozzles】Our water flosser has three different intensity modes, which are controlled by two buttons to switch on and off the product. There are three different types of strength that can meet most usage environments, and the simple operation method allows for quick mastery even when using our product for the first time. We have equipped this dental cleaner with 2 standard nozzles, 1 plaque nozzle and 1 brush nozzle, to meet the needs of different usage scenarios.",
+        "【 40 day ultra long battery life & portable 】The water pick battery life is twice that of other products. Just charge for 4 hours and it can be used for up to 40 days (calculated as 2 times a day for 2 minutes each time). We have adapted this water toothpick with a Type-C charging cable (excluding power adapter), so that you no longer need to carry additional cables, making it convenient for you to carry and organize during your travels.",
+        "【IPX7 Waterproof】Our wireless water flosser has excellent IPX7 waterproof performance, ensuring safe use in humid environments. The new high-performance motor provides more efficient water flow and ensures that the product is not easily damaged after long-term use.",
+        "【User friendly and secure】After professional evaluation by the American dental team, our dental flosser offers three different strength modes to meet the needs of 99% of different age groups. The ergonomic grip and four interchangeable tips ensure a comfortable and multifunctional experience.",
+        "【Product Content】1x Water Dental Flosser; 4x Replaceable Tips; 1x Type-C Charging Cable (excluding adapter); 1x User Manual; 1x Product Qualification Certificate.",      "Warning: When the battery level of the product is completely depleted, it will significantly reduce the battery life. In order to reduce battery loss and protect the battery's endurance, you should promptly connect the charger to charge the product when the battery level is below about 20% (when the battery level is displayed as 1 grid, we recommend that you connect the charger to charge the product in a timely manner). And Please drain the remaining water from the water tank after use."
+    ],
+    "images": [
+        "assets/images/WF-White-1.webp",
+        "assets/images/WF-White-2.webp",
+        "assets/images/WF-White-3.webp",
+        "assets/images/WF-White-4.webp",
+        "assets/images/WF-White-5.webp",
+        "assets/images/WF-White-6.webp",
+        "assets/images/WF-White-7.webp"
+    ],
+    "thumbnail_images": [
+        "assets/images/WF-White-Mini-1.webp",
+        "assets/images/WF-White-Mini-2.webp",
+        "assets/images/WF-White-Mini-3.webp",
+        "assets/images/WF-White-Mini-4.webp",
+        "assets/images/WF-White-Mini-5.webp",
+        "assets/images/WF-White-Mini-6.webp",
+        "assets/images/WF-White-Mini-7.webp"
+    ],
+    "sku": "B0DCNJLRHL",
+    "categories": [
+        "Health & Household",
+        "Oral Care",
+        "Dental Floss & Picks",
+        "Power Dental Flossers"
+    ],
+    "tags": [
+        "40-Day Battery Life",
+        "IPX7 Waterproof",
+        "3 intensity modes",
+        "300ML Capacity Water Reservoir",
+        "Multiple Tips"
+    ]
+},
+{
+    "id": 3,
+    "name": "BUZHIWU Water Dental Flosser Teeth Pick",
+    "price": 169.99,
+"category": "new,best,sale",
+    "availability": "In stock",
+    "description": "Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ML Rechargeable Travel Irrigation Cleaner IPX7 Waterproof Electric Flossing Machine for Teeth Cleaning RF-001.",
+    "details": [
+        "【Efficient Cleaning Technology】BUZHIWU water toothpick can effectively clean the gaps between teeth, remove small food residues and plaque, reduce gum bleeding, and improve gum swelling and pain. In addition, it can also be used for cleaning braces and dental implants. Our product is mainly used for deep cleaning of teeth and has been professionally recognized by the American dental team. It can remove 99% of tooth stains and solve oral problems such as bad breath.",
+        "【300ML Super Large Water Tank】This dental cleaner is equipped with a 300ML large water tank, which not only meets the needs of carrying, but also avoids frequent refilling of water, making your oral cleaning more convenient and efficient.",
+        "【3 Intensity Modes & 3 Different nozzles】Our water flosser has three different intensity modes, which are controlled by two buttons to switch on and off the product. There are three different types of strength that can meet most usage environments, and the simple operation method allows for quick mastery even when using our product for the first time. We have equipped this dental cleaner with 2 standard nozzles, 1 plaque nozzle and 1 brush nozzle, to meet the needs of different usage scenarios.",
+        "【 40 day ultra long battery life & portable 】The water pick battery life is twice that of other products. Just charge for 4 hours and it can be used for up to 40 days (calculated as 2 times a day for 2 minutes each time). We have adapted this water toothpick with a Type-C charging cable (excluding power adapter), so that you no longer need to carry additional cables, making it convenient for you to carry and organize during your travels.",
+        "【IPX7 Waterproof】Our wireless water flosser has excellent IPX7 waterproof performance, ensuring safe use in humid environments. The new high-performance motor provides more efficient water flow and ensures that the product is not easily damaged after long-term use.",
+        "【User friendly and secure】After professional evaluation by the American dental team, our dental flosser offers three different strength modes to meet the needs of 99% of different age groups. The ergonomic grip and four interchangeable tips ensure a comfortable and multifunctional experience.",
+        "【Product Content】1x Water Dental Flosser; 4x Replaceable Tips; 1x Type-C Charging Cable (excluding adapter); 1x User Manual; 1x Product Qualification Certificate.",      "Warning: When the battery level of the product is completely depleted, it will significantly reduce the battery life. In order to reduce battery loss and protect the battery's endurance, you should promptly connect the charger to charge the product when the battery level is below about 20% (when the battery level is displayed as 1 grid, we recommend that you connect the charger to charge the product in a timely manner). And Please drain the remaining water from the water tank after use."
+    ],
+    "images": [
+        "assets/images/WF-Pink-1.webp",
+        "assets/images/WF-Pink-2.webp",
+        "assets/images/WF-Pink-3.webp",
+        "assets/images/WF-Pink-4.webp",
+        "assets/images/WF-Pink-5.webp",
+        "assets/images/WF-Pink-6.webp",
+        "assets/images/WF-Pink-7.webp"
+    ],
+    "thumbnail_images": [
+        "assets/images/WF-Pink-Mini-1.webp",
+        "assets/images/WF-Pink-Mini-2.webp",
+        "assets/images/WF-Pink-Mini-3.webp",
+        "assets/images/WF-Pink-Mini-4.webp",
+        "assets/images/WF-Pink-Mini-5.webp",
+        "assets/images/WF-Pink-Mini-6.webp",
+        "assets/images/WF-Pink-Mini-7.webp"
+    ],
+    "sku": "B0DD46KGSG",
+    "categories": [
+        "Health & Household",
+        "Oral Care",
+        "Dental Floss & Picks",
+        "Power Dental Flossers"
+    ],
+    "tags": [
+        "40-Day Battery Life",
+        "IPX7 Waterproof",
+        "3 intensity modes",
+        "300ML Capacity Water Reservoir",
+        "Multiple Tips"
+    ]
+},
+{
+    "id": 4,
+    "name": "BUZHIWU Water Dental Flosser Teeth Pick",
+    "price": 169.99,
+"category": "new,best,sale",
+    "availability": "In stock",
+    "description": "Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ML Rechargeable Travel Irrigation Cleaner IPX7 Waterproof Electric Flossing Machine for Teeth Cleaning RF-001.",
+    "details": [
+        "【Efficient Cleaning Technology】BUZHIWU water toothpick can effectively clean the gaps between teeth, remove small food residues and plaque, reduce gum bleeding, and improve gum swelling and pain. In addition, it can also be used for cleaning braces and dental implants. Our product is mainly used for deep cleaning of teeth and has been professionally recognized by the American dental team. It can remove 99% of tooth stains and solve oral problems such as bad breath.",
+        "【300ML Super Large Water Tank】This dental cleaner is equipped with a 300ML large water tank, which not only meets the needs of carrying, but also avoids frequent refilling of water, making your oral cleaning more convenient and efficient.",
+        "【3 Intensity Modes & 3 Different nozzles】Our water flosser has three different intensity modes, which are controlled by two buttons to switch on and off the product. There are three different types of strength that can meet most usage environments, and the simple operation method allows for quick mastery even when using our product for the first time. We have equipped this dental cleaner with 2 standard nozzles, 1 plaque nozzle and 1 brush nozzle, to meet the needs of different usage scenarios.",
+        "【 40 day ultra long battery life & portable 】The water pick battery life is twice that of other products. Just charge for 4 hours and it can be used for up to 40 days (calculated as 2 times a day for 2 minutes each time). We have adapted this water toothpick with a Type-C charging cable (excluding power adapter), so that you no longer need to carry additional cables, making it convenient for you to carry and organize during your travels.",
+        "【IPX7 Waterproof】Our wireless water flosser has excellent IPX7 waterproof performance, ensuring safe use in humid environments. The new high-performance motor provides more efficient water flow and ensures that the product is not easily damaged after long-term use.",
+        "【User friendly and secure】After professional evaluation by the American dental team, our dental flosser offers three different strength modes to meet the needs of 99% of different age groups. The ergonomic grip and four interchangeable tips ensure a comfortable and multifunctional experience.",
+        "【Product Content】1x Water Dental Flosser; 4x Replaceable Tips; 1x Type-C Charging Cable (excluding adapter); 1x User Manual; 1x Product Qualification Certificate.",      "Warning: When the battery level of the product is completely depleted, it will significantly reduce the battery life. In order to reduce battery loss and protect the battery's endurance, you should promptly connect the charger to charge the product when the battery level is below about 20% (when the battery level is displayed as 1 grid, we recommend that you connect the charger to charge the product in a timely manner). And Please drain the remaining water from the water tank after use."
+    ],
+    "images": [
+        "assets/images/WF-Purple-1.webp",
+        "assets/images/WF-Purple-2.webp",
+        "assets/images/WF-Purple-3.webp",
+        "assets/images/WF-Purple-4.webp",
+        "assets/images/WF-Purple-5.webp",
+        "assets/images/WF-Purple-6.webp",
+        "assets/images/WF-Purple-7.webp"
+    ],
+    "thumbnail_images": [
+        "assets/images/WF-Purple-Mini-1.webp",
+        "assets/images/WF-Purple-Mini-2.webp",
+        "assets/images/WF-Purple-Mini-3.webp",
+        "assets/images/WF-Purple-Mini-4.webp",
+        "assets/images/WF-Purple-Mini-5.webp",
+        "assets/images/WF-Purple-Mini-6.webp",
+        "assets/images/WF-Purple-Mini-7.webp"
+    ],
+    "sku": "B0DD47M5L2",
+    "categories": [
+        "Health & Household",
+        "Oral Care",
+        "Dental Floss & Picks",
+        "Power Dental Flossers"
+    ],
+    "tags": [
+        "40-Day Battery Life",
+        "IPX7 Waterproof",
+        "3 intensity modes",
+        "300ML Capacity Water Reservoir",
+        "Multiple Tips"
+    ]
+},
+{
+    "id": 5,
+    "name": "BUZHIWU Water Dental Flosser Teeth Pick",
+    "price": 169.99,
+"category": "new,best,sale",
+    "availability": "In stock",
+    "description": "Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ML Rechargeable Travel Irrigation Cleaner IPX7 Waterproof Electric Flossing Machine for Teeth Cleaning RF-001.",
+    "details": [
+        "【Efficient Cleaning Technology】BUZHIWU water toothpick can effectively clean the gaps between teeth, remove small food residues and plaque, reduce gum bleeding, and improve gum swelling and pain. In addition, it can also be used for cleaning braces and dental implants. Our product is mainly used for deep cleaning of teeth and has been professionally recognized by the American dental team. It can remove 99% of tooth stains and solve oral problems such as bad breath.",
+        "【300ML Super Large Water Tank】This dental cleaner is equipped with a 300ML large water tank, which not only meets the needs of carrying, but also avoids frequent refilling of water, making your oral cleaning more convenient and efficient.",
+        "【3 Intensity Modes & 3 Different nozzles】Our water flosser has three different intensity modes, which are controlled by two buttons to switch on and off the product. There are three different types of strength that can meet most usage environments, and the simple operation method allows for quick mastery even when using our product for the first time. We have equipped this dental cleaner with 2 standard nozzles, 1 plaque nozzle and 1 brush nozzle, to meet the needs of different usage scenarios.",
+        "【 40 day ultra long battery life & portable 】The water pick battery life is twice that of other products. Just charge for 4 hours and it can be used for up to 40 days (calculated as 2 times a day for 2 minutes each time). We have adapted this water toothpick with a Type-C charging cable (excluding power adapter), so that you no longer need to carry additional cables, making it convenient for you to carry and organize during your travels.",
+        "【IPX7 Waterproof】Our wireless water flosser has excellent IPX7 waterproof performance, ensuring safe use in humid environments. The new high-performance motor provides more efficient water flow and ensures that the product is not easily damaged after long-term use.",
+        "【User friendly and secure】After professional evaluation by the American dental team, our dental flosser offers three different strength modes to meet the needs of 99% of different age groups. The ergonomic grip and four interchangeable tips ensure a comfortable and multifunctional experience.",
+        "【Product Content】1x Water Dental Flosser; 4x Replaceable Tips; 1x Type-C Charging Cable (excluding adapter); 1x User Manual; 1x Product Qualification Certificate.",      "Warning: When the battery level of the product is completely depleted, it will significantly reduce the battery life. In order to reduce battery loss and protect the battery's endurance, you should promptly connect the charger to charge the product when the battery level is below about 20% (when the battery level is displayed as 1 grid, we recommend that you connect the charger to charge the product in a timely manner). And Please drain the remaining water from the water tank after use."
+    ],
+    "images": [
+        "assets/images/WF-Bordeaux-1.webp",
+        "assets/images/WF-Bordeaux-2.webp",
+        "assets/images/WF-Bordeaux-3.webp",
+        "assets/images/WF-Bordeaux-4.webp",
+        "assets/images/WF-Bordeaux-5.webp",
+        "assets/images/WF-Bordeaux-6.webp",
+        "assets/images/WF-Bordeaux-7.webp"
+    ],
+    "thumbnail_images": [
+        "assets/images/WF-Bordeaux-Mini-1.webp",
+        "assets/images/WF-Bordeaux-Mini-2.webp",
+        "assets/images/WF-Bordeaux-Mini-3.webp",
+        "assets/images/WF-Bordeaux-Mini-4.webp",
+        "assets/images/WF-Bordeaux-Mini-5.webp",
+        "assets/images/WF-Bordeaux-Mini-6.webp",
+        "assets/images/WF-Bordeaux-Mini-7.webp"
+    ],
+    "sku": "B0DCNJJXSK",
+    "categories": [
+        "Health & Household",
+        "Oral Care",
+        "Dental Floss & Picks",
+        "Power Dental Flossers"
+    ],
+    "tags": [
+        "40-Day Battery Life",
+        "IPX7 Waterproof",
+        "3 intensity modes",
+        "300ML Capacity Water Reservoir",
+        "Multiple Tips"
+    ]
+}
 ]

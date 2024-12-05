@@ -23,8 +23,8 @@ async function setCommon() {
     // 定义新的联系方式
     const newContactInfo = {
         currency: "$",
-        band: "Asmoda",
-        bandSite: "https://asmoda.store",
+        band: "BUZHIWU",
+        bandSite: "https://www.buzhiwu.com",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
         address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
