@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // 将更新行添加到 cartBody
         cartList.appendChild(updateRow);
 
-        document.querySelector('.order-total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${total}`;
+        document.querySelector('.order-total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${total.toFixed(2)}`;
 
         // 删除商品事件监听
         document.querySelectorAll('.remove').forEach(button => {
