@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
+      //修改最低价格
+      const lowestPrice = Math.min(...products.map(product => product.price));
+      document.querySelectorAll('.price-value').forEach(element => {
+        element.textContent = '$' + lowestPrice;
+      });
       //获取所有.response - product 容器
       const containers = document.querySelectorAll('.response-product');
       // 遍历每个容器
@@ -111,8 +116,8 @@ function renderProduct(product, layoutType, container) {
         'status-publish', 'has-post-thumbnail', 'product_cat-light', 'product_cat-chair', 'product_cat-specials',
         'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
       );
-      productItem.innerHTML = `     <div class="product-inner">
-                        <div class="product-thumb">
+      productItem.innerHTML = `     <div class="product-inner" style="display: flex;align-items: center;">
+                        <div class="product-thumb" >
                             <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="-1">
                                 <img class="img-responsive" src="${product.images[0]}" alt="${product.name}" width="90" height="90">
                             </a>
@@ -138,8 +143,8 @@ function renderProduct(product, layoutType, container) {
         'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
       );
       productItem.innerHTML = `
-                   <div class="product-inner">
-                                     <div class="product-thumb">
+                   <div class="product-inner" style="display: flex;align-items: center;">
+                                     <div class="product-thumb" >
                                          <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="-1">
                                              <img class="img-responsive" src="${product.images[0]}" alt="${product.name}" width="90" height="90">
                                          </a>
