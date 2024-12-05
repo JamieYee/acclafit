@@ -111,8 +111,8 @@ function renderProduct(product, layoutType, container) {
         'status-publish', 'has-post-thumbnail', 'product_cat-light', 'product_cat-chair', 'product_cat-specials',
         'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
       );
-      productItem.innerHTML = `     <div class="product-inner">
-                        <div class="product-thumb">
+      productItem.innerHTML = `     <div class="product-inner" style="display: flex;align-items: center;">
+                        <div class="product-thumb" >
                             <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="-1">
                                 <img class="img-responsive" src="${product.images[0]}" alt="${product.name}" width="90" height="90">
                             </a>
@@ -138,8 +138,8 @@ function renderProduct(product, layoutType, container) {
         'product_tag-light', 'product_tag-sock', 'first', 'instock', 'sale', 'featured', 'shipping-taxable', 'purchasable', 'product-type-simple'
       );
       productItem.innerHTML = `
-                   <div class="product-inner">
-                                     <div class="product-thumb">
+                   <div class="product-inner" style="display: flex;align-items: center;">
+                                     <div class="product-thumb" >
                                          <a class="thumb-link" href="single-product.html?product_id=${product.id}" tabindex="-1">
                                              <img class="img-responsive" src="${product.images[0]}" alt="${product.name}" width="90" height="90">
                                          </a>
