@@ -1,36 +1,322 @@
 [
     {
         "id": 1,
-        "name": "Duoripe Smart Watch",
-        "price": "89.99",
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
         "category": "new best.sale",
         "availability": "In stock",
-        "description": "Smart Watch for Men Answer/Make Calls, Fitness Tracker with 1.43 AMOLED Touch Display, 120 Sport Modes Smartwatch with Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Watch for Android iOS",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
         "details": [
-            "Stay Connected with Bluetooth Calling: Answer and make calls directly from your wrist with the built-in Bluetooth calling feature on this D3 smart watch. Whether you're jogging, cycling, or on the go, stay in touch without needing to pull out your phone. Enjoy the convenience of hands-free calling and seamless communication, all from your smart watch.",
-            "Stunning 1.43-Inch AMOLED Touchscreen: Enjoy a vibrant, crystal-clear display with the 1.43-inch AMOLED screen on your smart watch, featuring an impressive resolution of 466x466 pixels. The full-touch functionality provides smooth navigation, making it easy to access apps, notifications, and health data at a glance.",
-            "120+ Sports Modes for Every Workout: With over 120 sports modes, including running, cycling, basketball, football, badminton, and more, this fitness watch for men helps you track your performance in any activity. Accurately monitor your workouts and progress with advanced fitness tracking, all from your wrist.",
-            "All-Day Health Monitoring: Monitor your health 24/7 with heart rate and blood pressure tracking on your D3 smartwatch. The device continuously tracks your heart rate, giving you insights into your cardiovascular health, while also measuring your blood pressure to ensure you're staying within a healthy range.",
-            "Intelligent Notifications: Never miss an important update with smart notifications. Receive calls, messages, and app alerts directly on your smart watch from platforms like WhatsApp, Facebook, Twitter, and more. Stay connected and informed at all times without reaching for your phone.",
-            "Real-Time Sleep Monitoring: Track your sleep cycles in real-time with the advanced sleep monitoring feature on your smart watch. The watch records data on your light, deep, and REM sleep stages, helping you improve your sleep quality and detect any early signs of sleep disturbances.",
-            "Durable & Waterproof Design: Built to withstand daily wear and tear, this fitness tracker is both durable and water-resistant, making it perfect for any environment. With an IP68 water resistance rating, you can wear it confidently while running in the rain or during other outdoor activities.",
-            "Always-on Battery Life & Compatibility: The D3 smart watch offers up to 14 days of battery life under typical usage scenarios and is equipped with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity with devices. It is compatible with iOS 9.0, Android 5.0, and above."
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
         ],
         "images": [
-            "assets/images/D3黑1.webp",
-            "assets/images/D3黑2.webp",
-            "assets/images/D3黑3.webp",
-            "assets/images/D3黑4.webp",
-            "assets/images/D3黑5.webp"
+            "assets/images/P2星光1.webp",
+            "assets/images/P2星光2.webp",
+            "assets/images/P2星光3.webp",
+            "assets/images/P2星光4.webp",
+            "assets/images/P2星光5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/D3黑1-mini.webp",
-            "assets/images/D3黑2-mini.webp",
-            "assets/images/D3黑3-mini.webp",
-            "assets/images/D3黑4-mini.webp",
-            "assets/images/D3黑5-mini.webp"
+            "assets/images/P2星光1-mini.webp",
+            "assets/images/P2星光2-mini.webp",
+            "assets/images/P2星光3-mini.webp",
+            "assets/images/P2星光4-mini.webp",
+            "assets/images/P2星光5-mini.webp"
         ],
         "sku": "B0D97MFSNW",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2黑1.webp",
+            "assets/images/P2黑2.webp",
+            "assets/images/P2黑3.webp",
+            "assets/images/P2黑4.webp",
+            "assets/images/P2黑5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2黑1-mini.webp",
+            "assets/images/P2黑2-mini.webp",
+            "assets/images/P2黑3-mini.webp",
+            "assets/images/P2黑4-mini.webp",
+            "assets/images/P2黑5-mini.webp"
+        ],
+        "sku": "B0D97L5NND",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2粉1.webp",
+            "assets/images/P2粉2.webp",
+            "assets/images/P2粉3.webp",
+            "assets/images/P2粉4.webp",
+            "assets/images/P2粉5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2粉1-mini.webp",
+            "assets/images/P2粉2-mini.webp",
+            "assets/images/P2粉3-mini.webp",
+            "assets/images/P2粉4-mini.webp",
+            "assets/images/P2粉5-mini.webp"
+        ],
+        "sku": "B0DFNKS1NM",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2深紫1.webp",
+            "assets/images/P2深紫2.webp",
+            "assets/images/P2深紫3.webp",
+            "assets/images/P2深紫4.webp",
+            "assets/images/P2深紫5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2深紫1-mini.webp",
+            "assets/images/P2深紫2-mini.webp",
+            "assets/images/P2深紫3-mini.webp",
+            "assets/images/P2深紫4-mini.webp",
+            "assets/images/P2深紫5-mini.webp"
+        ],
+        "sku": "B0D97LBM4R",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2深蓝1.webp",
+            "assets/images/P2深蓝2.webp",
+            "assets/images/P2深蓝3.webp",
+            "assets/images/P2深蓝4.webp",
+            "assets/images/P2深蓝5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2深蓝1-mini.webp",
+            "assets/images/P2深蓝2-mini.webp",
+            "assets/images/P2深蓝3-mini.webp",
+            "assets/images/P2深蓝4-mini.webp",
+            "assets/images/P2深蓝5-mini.webp"
+        ],
+        "sku": "B0D97LS1DX",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2浅紫1.webp",
+            "assets/images/P2浅紫2.webp",
+            "assets/images/P2浅紫3.webp",
+            "assets/images/P2浅紫4.webp",
+            "assets/images/P2浅紫5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2浅紫1-mini.webp",
+            "assets/images/P2浅紫2-mini.webp",
+            "assets/images/P2浅紫3-mini.webp",
+            "assets/images/P2浅紫4-mini.webp",
+            "assets/images/P2浅紫5-mini.webp"
+        ],
+        "sku": "B0D97L9TPD",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2绿1.webp",
+            "assets/images/P2绿2.webp",
+            "assets/images/P2绿3.webp",
+            "assets/images/P2绿4.webp",
+            "assets/images/P2绿5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2绿1-mini.webp",
+            "assets/images/P2绿2-mini.webp",
+            "assets/images/P2绿3-mini.webp",
+            "assets/images/P2绿4-mini.webp",
+            "assets/images/P2v5-mini.webp"
+        ],
+        "sku": "B0D97KPVTD",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "DDXCAW Smart Watch",
+        "price": "99.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Women Men Answer/Make Call,1.85 HD Screen Fitness tracker with Step Counter,140+ Sport Modes Smartwatch with Heart Rate Sleep Monitor,IP68 Waterproof Activity Tracker for Android iOS",
+        "details": [
+            "🔵【Bluetooth Voice Calls】Stay connected with friends, colleagues, and loved ones right on your wrist. Phone calls can be answered on the P2 smart watch with only a tap. Whether you are working or doing exercise, you can raise your hand to answer phone calls, so you don't miss anything important.",
+            "🔵【Phenomenal Visual Experience】The DDXCAW P2 Fitness Tracker features a 1.85-inch TFT display with a refresh rate up to 60Hz and a 390*450 resolution. One screen, all excitement. More than 100+ watch faces allow you to change themes at your will. It is easy to show your unique personality at the raise of your hand.",
+            "🔵【140+ Multiple Fitness Modes】The DDXCAW P2 Activity Tracker offers you more than 140+ sport modes, including 12 professional sports modes (running, walking, cycling, swimming, football, etc). The built-in sensors and professional sports algorithms can monitor and analyse your body when you do your favourite sports, showing your efforts at a glance.",
+            "🔵【All-Day Health Tracking】Maximize and maintain workout intensity with DDXCAW's heart rate monitor technology. Using AI-driven algorithms for high-precision readings and infrared technology, it offers continuous 24/7 heart rate monitoring, so you stay in the fitness zone longer.",
+            "🔵【IP68 Waterproof Watch】This fitness watch comes with IP68 and 5 ATM ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can even wear it while using any of the 10+ water sports modes on the watch.",
+            "🔵【Smart Convenience Redefined】Simply lift your wrist to field incoming calls, preview messages or take selfies and group photos. Misplaced your phone? No worries. When paired with your phone, the phone finder function will locate it instantly.",
+            "🔵【Always-on Battery Life & Compatibility】The P2 smartwatch offers 14 days of battery life in typical usage scenarios, and equips with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity for devices. Compatible with iOS 9.0, Android 5.0 and above devices."
+        ],
+        "images": [
+            "assets/images/P2酒红1.webp",
+            "assets/images/P2酒红2.webp",
+            "assets/images/P2酒红3.webp",
+            "assets/images/P2酒红4.webp",
+            "assets/images/P2酒红5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P2酒红1-mini.webp",
+            "assets/images/P2酒红2-mini.webp",
+            "assets/images/P2酒红3-mini.webp",
+            "assets/images/P2酒红4-mini.webp",
+            "assets/images/P2酒红5-mini.webp"
+        ],
+        "sku": "B0D97KZDX8",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
