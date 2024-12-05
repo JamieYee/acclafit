@@ -1,44 +1,338 @@
 [
     {
         "id": 1,
-        "name": "Duoripe Smart Watch",
-        "price": "89.99",
-        "category": "new best.sale",
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
         "availability": "In stock",
-        "description": "Smart Watch for Men Answer/Make Calls, Fitness Tracker with 1.43 AMOLED Touch Display, 120 Sport Modes Smartwatch with Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Watch for Android iOS",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
         "details": [
-            "Stay Connected with Bluetooth Calling: Answer and make calls directly from your wrist with the built-in Bluetooth calling feature on this D3 smart watch. Whether you're jogging, cycling, or on the go, stay in touch without needing to pull out your phone. Enjoy the convenience of hands-free calling and seamless communication, all from your smart watch.",
-            "Stunning 1.43-Inch AMOLED Touchscreen: Enjoy a vibrant, crystal-clear display with the 1.43-inch AMOLED screen on your smart watch, featuring an impressive resolution of 466x466 pixels. The full-touch functionality provides smooth navigation, making it easy to access apps, notifications, and health data at a glance.",
-            "120+ Sports Modes for Every Workout: With over 120 sports modes, including running, cycling, basketball, football, badminton, and more, this fitness watch for men helps you track your performance in any activity. Accurately monitor your workouts and progress with advanced fitness tracking, all from your wrist.",
-            "All-Day Health Monitoring: Monitor your health 24/7 with heart rate and blood pressure tracking on your D3 smartwatch. The device continuously tracks your heart rate, giving you insights into your cardiovascular health, while also measuring your blood pressure to ensure you're staying within a healthy range.",
-            "Intelligent Notifications: Never miss an important update with smart notifications. Receive calls, messages, and app alerts directly on your smart watch from platforms like WhatsApp, Facebook, Twitter, and more. Stay connected and informed at all times without reaching for your phone.",
-            "Real-Time Sleep Monitoring: Track your sleep cycles in real-time with the advanced sleep monitoring feature on your smart watch. The watch records data on your light, deep, and REM sleep stages, helping you improve your sleep quality and detect any early signs of sleep disturbances.",
-            "Durable & Waterproof Design: Built to withstand daily wear and tear, this fitness tracker is both durable and water-resistant, making it perfect for any environment. With an IP68 water resistance rating, you can wear it confidently while running in the rain or during other outdoor activities.",
-            "Always-on Battery Life & Compatibility: The D3 smart watch offers up to 14 days of battery life under typical usage scenarios and is equipped with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity with devices. It is compatible with iOS 9.0, Android 5.0, and above."
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
         ],
         "images": [
-            "assets/images/D3黑1.webp",
-            "assets/images/D3黑2.webp",
-            "assets/images/D3黑3.webp",
-            "assets/images/D3黑4.webp",
-            "assets/images/D3黑5.webp"
+            "assets/images/B6-Black-1.webp",
+            "assets/images/B6-Black-2.webp",
+            "assets/images/B6-Black-3.webp",
+            "assets/images/B6-Black-4.webp",
+            "assets/images/B6-Black-5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/D3黑1-mini.webp",
-            "assets/images/D3黑2-mini.webp",
-            "assets/images/D3黑3-mini.webp",
-            "assets/images/D3黑4-mini.webp",
-            "assets/images/D3黑5-mini.webp"
+            "assets/images/B6-Black-1-mini.webp",
+            "assets/images/B6-Black-2-mini.webp",
+            "assets/images/B6-Black-3-mini.webp",
+            "assets/images/B6-Black-4-mini.webp",
+            "assets/images/B6-Black-5-mini.webp"
         ],
-        "sku": "B0D97MFSNW",
+        "sku": "B0DHVM893F",
         "categories": [
-            "Electronics & Photo",
-            "Wearable Technology",
-            "Smartwatches"
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
         ],
         "tags": [
-            "Electronics",
-            "Smartwatches"
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Pink-1.webp",
+            "assets/images/B6-Pink-2.webp",
+            "assets/images/B6-Pink-3.webp",
+            "assets/images/B6-Pink-4.webp",
+            "assets/images/B6-Pink-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Pink-1-mini.webp",
+            "assets/images/B6-Pink-2-mini.webp",
+            "assets/images/B6-Pink-3-mini.webp",
+            "assets/images/B6-Pink-4-mini.webp",
+            "assets/images/B6-Pink-5-mini.webp"
+        ],
+        "sku": "B0DP7Q4KWX",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Starlight-1.webp",
+            "assets/images/B6-Starlight-2.webp",
+            "assets/images/B6-Starlight-3.webp",
+            "assets/images/B6-Starlight-4.webp",
+            "assets/images/B6-Starlight-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Starlight-1-mini.webp",
+            "assets/images/B6-Starlight-2-mini.webp",
+            "assets/images/B6-Starlight-3-mini.webp",
+            "assets/images/B6-Starlight-4-mini.webp",
+            "assets/images/B6-Starlight-5-mini.webp"
+        ],
+        "sku": "B0DP7TX2ML",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Deep Purple-1.webp",
+            "assets/images/B6-Deep Purple-2.webp",
+            "assets/images/B6-Deep Purple-3.webp",
+            "assets/images/B6-Deep Purple-4.webp",
+            "assets/images/B6-Deep Purple-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Deep Purple-1-mini.webp",
+            "assets/images/B6-Deep Purple-2-mini.webp",
+            "assets/images/B6-Deep Purple-3-mini.webp",
+            "assets/images/B6-Deep Purple-4-mini.webp",
+            "assets/images/B6-Deep Purple-5-mini.webp"
+        ],
+        "sku": "B0DJ7DK3VP",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Purple-1.webp",
+            "assets/images/B6-Purple-2.webp",
+            "assets/images/B6-Purple-3.webp",
+            "assets/images/B6-Purple-4.webp",
+            "assets/images/B6-Purple-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Purple-1-mini.webp",
+            "assets/images/B6-Purple-2-mini.webp",
+            "assets/images/B6-Purple-3-mini.webp",
+            "assets/images/B6-Purple-4-mini.webp",
+            "assets/images/B6-Purple-5-mini.webp"
+        ],
+        "sku": "B0DKFNKM34",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Blue-1.webp",
+            "assets/images/B6-Blue-2.webp",
+            "assets/images/B6-Blue-3.webp",
+            "assets/images/B6-Blue-4.webp",
+            "assets/images/B6-Blue-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Blue-1-mini.webp",
+            "assets/images/B6-Blue-2-mini.webp",
+            "assets/images/B6-Blue-3-mini.webp",
+            "assets/images/B6-Blue-4-mini.webp",
+            "assets/images/B6-Blue-5-mini.webp"
+        ],
+        "sku": "B0DJ7C8PDM",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Orange-1.webp",
+            "assets/images/B6-Orange-2.webp",
+            "assets/images/B6-Orange-3.webp",
+            "assets/images/B6-Orange-4.webp",
+            "assets/images/B6-Orange-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Orange-1-mini.webp",
+            "assets/images/B6-Orange-2-mini.webp",
+            "assets/images/B6-Orange-3-mini.webp",
+            "assets/images/B6-Orange-4-mini.webp",
+            "assets/images/B6-Orange-5-mini.webp"
+        ],
+        "sku": "B0D8VV2CPL",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "IMFRCHCS Fitness Tracker",
+        "price": "99.99",
+        "category": "new,best,sale",
+        "availability": "In stock",
+        "description": "IMFRCHCS Fitness Tracker, Smart Watch with 1.47 inches inches Touch Display, 137+ Sport Modes Activity Tracker with 24/7 Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Tracker for Women Men Kids.",
+        "details": [
+            "💙【Ultra-large 1.47 inches TFT Display】The large 1.47 inches TFT display offers a 10.5% larger viewing area, making it easier to read. Whether you're checking your heart rate on a run or your messages on the way to work, see everything you need with the flick of your B6 Fitness Tracker.",
+            "💙【130+ Multiple Fitness Modes】No matter you are into outdoor or indoor workouts, there is something for you. B6 activity tracker comes with 7 professional workout modes – including walking, running, cycling, swimming – offer high-level fitness tracking with personalized guidance. You can also find your favourite workouts from one of the 130 customized workout modes to help you stay active and engaged.",
+            "💙【24/7 Heart Rate & Blood Oxygen Monitor】The B6 fitness tracker supports real-time dynamic heart rate and blood oxygen monitoring, so you can view the changes at a glance. The alerts will be sent when your heart rate/SpO2 is high, guarding your health around the clock.",
+            "💙【Sleep Better Every Night】With the help of scientific, meticulous sleep monitoring technologies, the B6 Smart Watch records your real-time sleep condition at different stages such as deep sleep, light sleep and REM, improving your sleeping habits and the quality of your sleep.",
+            "💙【IP68 Waterproof Watch】Whether enjoy cool splashes in shallow water or snorkeling, you can wear your tracker all the time. 5 ATM water resistance rating, making daily wear more worry-free.",
+            "💙【Convenience in Daily Life】The fitness tracker can notify you of new messages, incoming calls, weather, reminders, etc., allowing you to be up to beats with your life and work. It can also make your life more convenient with music playback control, remote shutter and finding your phone.",
+            "💙【Extra-long Battery Life】Gently place the fitness tracker close to the charger and it will be automatically adsorbed for charging. The combination of low power consumption hardware and software provides up to 5-7 days of battery life, so you don't need to worry about battery life."
+        ],
+        "images": [
+            "assets/images/B6-Burgundy-1.webp",
+            "assets/images/B6-Burgundy-2.webp",
+            "assets/images/B6-Burgundy-3.webp",
+            "assets/images/B6-Burgundy-4.webp",
+            "assets/images/B6-Burgundy-5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/B6-Burgundy-1-mini.webp",
+            "assets/images/B6-Burgundy-2-mini.webp",
+            "assets/images/B6-Burgundy-3-mini.webp",
+            "assets/images/B6-Burgundy-4-mini.webp",
+            "assets/images/B6-Burgundy-5-mini.webp"
+        ],
+        "sku": "B0D941Y919",
+        "categories": [
+            "Sports & Outdoors",
+            "Exercise & Fitness",
+            "Fitness Technology",
+            "Fitness Trackers"
+        ],
+        "tags": [
+            "Exercise tracker",
+            "Message Notification"
         ]
     }
 ]
