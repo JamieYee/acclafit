@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
+      //修改最低价格
+      const lowestPrice = Math.min(...products.map(product => product.price));
+      document.getElementById('price-value').textContent = '$' + lowestPrice; // 更新价格
       //获取所有.response - product 容器
       const containers = document.querySelectorAll('.response-product');
       // 遍历每个容器

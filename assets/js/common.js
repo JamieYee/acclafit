@@ -31,7 +31,6 @@ async function setCommon() {
     };
     // 遍历所有的文本节点
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-
     let node;
     while (node = walker.nextNode()) {
         if (node.nodeValue.includes('$')) {
@@ -40,6 +39,10 @@ async function setCommon() {
         }
     }
     document.title = newContactInfo.band;
+    //修改about的品牌名
+    document.querySelectorAll('.brand-name').forEach(element => {
+        element.textContent = newContactInfo.band; // Change the text content
+    });
     // 修改电话
     const phoneElement = document.querySelector('.rustrot-listitem.style-01.contact .listitem-list li:nth-child(1) a');
     if (phoneElement) {
