@@ -1,36 +1,310 @@
 [
     {
-        "id": 1,
-        "name": "Duoripe Smart Watch",
+         "id": 1,
+        "name": "Smart Watch",
         "price": "89.99",
         "category": "new best.sale",
         "availability": "In stock",
-        "description": "Smart Watch for Men Answer/Make Calls, Fitness Tracker with 1.43 AMOLED Touch Display, 120 Sport Modes Smartwatch with Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Watch for Android iOS",
+        "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
         "details": [
-            "Stay Connected with Bluetooth Calling: Answer and make calls directly from your wrist with the built-in Bluetooth calling feature on this D3 smart watch. Whether you're jogging, cycling, or on the go, stay in touch without needing to pull out your phone. Enjoy the convenience of hands-free calling and seamless communication, all from your smart watch.",
-            "Stunning 1.43-Inch AMOLED Touchscreen: Enjoy a vibrant, crystal-clear display with the 1.43-inch AMOLED screen on your smart watch, featuring an impressive resolution of 466x466 pixels. The full-touch functionality provides smooth navigation, making it easy to access apps, notifications, and health data at a glance.",
-            "120+ Sports Modes for Every Workout: With over 120 sports modes, including running, cycling, basketball, football, badminton, and more, this fitness watch for men helps you track your performance in any activity. Accurately monitor your workouts and progress with advanced fitness tracking, all from your wrist.",
-            "All-Day Health Monitoring: Monitor your health 24/7 with heart rate and blood pressure tracking on your D3 smartwatch. The device continuously tracks your heart rate, giving you insights into your cardiovascular health, while also measuring your blood pressure to ensure you're staying within a healthy range.",
-            "Intelligent Notifications: Never miss an important update with smart notifications. Receive calls, messages, and app alerts directly on your smart watch from platforms like WhatsApp, Facebook, Twitter, and more. Stay connected and informed at all times without reaching for your phone.",
-            "Real-Time Sleep Monitoring: Track your sleep cycles in real-time with the advanced sleep monitoring feature on your smart watch. The watch records data on your light, deep, and REM sleep stages, helping you improve your sleep quality and detect any early signs of sleep disturbances.",
-            "Durable & Waterproof Design: Built to withstand daily wear and tear, this fitness tracker is both durable and water-resistant, making it perfect for any environment. With an IP68 water resistance rating, you can wear it confidently while running in the rain or during other outdoor activities.",
-            "Always-on Battery Life & Compatibility: The D3 smart watch offers up to 14 days of battery life under typical usage scenarios and is equipped with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity with devices. It is compatible with iOS 9.0, Android 5.0, and above."
+            "Bluetooth Calling & Intelligent Notification: With the built-in microphone and speaker, the smart watch can make/answer calls directly. In addition, when the watch is synced to the smartphone, the smart watch can receive messages, calls, and app (WhatsApp, IG, Twitter, Facebook etc.) notifications by getting a vibration alert.",
+            "All-Day Health Tracking: Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes in the Da Fit app.",
+            "1.83 Inches Full Touch Screen: The smart watch has a 1.83 inches full touch TFT screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dark environment, the screen brightness is adjustable, allowing you to easily read the time and data.",
+            "123+ Multiple Fitness Modes: The smart watch supports 123+ professional and extended workout modes, including yoga, running, skipping, cycling, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "Sleep Monitoring: The fitness tracker monitors sleep quality through the 3 stages (Awake, Light sleep and Deep sleep). It tracks your sleep and breathing patterns so you can work on improving your sleep quality.",
+            "Colorful Dial: With the connecting “Da Fit” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as stopwatch, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 25 days of standby time.",
+            "IP68 Waterproof: The fitness watch comes with IP68 ratings for water resistance, so you can wear it for washing hands, showering. (Tips: please do not wear it in hot water.）"
         ],
         "images": [
-            "assets/images/D3黑1.webp",
-            "assets/images/D3黑2.webp",
-            "assets/images/D3黑3.webp",
-            "assets/images/D3黑4.webp",
-            "assets/images/D3黑5.webp"
+            "assets/images/P6黑1.webp",
+            "assets/images/P6黑2.webp",
+            "assets/images/P6黑3.webp",
+            "assets/images/P6黑4.webp",
+            "assets/images/P6黑5.webp",
+            "assets/images/P6黑6.webp",
+            "assets/images/P6黑7.webp"
         ],
         "thumbnail_images": [
-            "assets/images/D3黑1-mini.webp",
-            "assets/images/D3黑2-mini.webp",
-            "assets/images/D3黑3-mini.webp",
-            "assets/images/D3黑4-mini.webp",
-            "assets/images/D3黑5-mini.webp"
+            "assets/images/P6黑1-mini.webp",
+            "assets/images/P6黑2-mini.webp",
+            "assets/images/P6黑3-mini.webp",
+            "assets/images/P6黑4-mini.webp",
+            "assets/images/P6黑5-mini.webp",
+            "assets/images/P6黑6-mini.webp",
+            "assets/images/P6黑7-mini.webp"
         ],
-        "sku": "B0D97MFSNW",
+        "sku": "B0D8QJ1QBS",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
+        "details": [
+            "Bluetooth Calling & Intelligent Notification: With the built-in microphone and speaker, the smart watch can make/answer calls directly. In addition, when the watch is synced to the smartphone, the smart watch can receive messages, calls, and app (WhatsApp, IG, Twitter, Facebook etc.) notifications by getting a vibration alert.",
+            "All-Day Health Tracking: Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes in the Da Fit app.",
+            "1.83 Inches Full Touch Screen: The smart watch has a 1.83 inches full touch TFT screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dark environment, the screen brightness is adjustable, allowing you to easily read the time and data.",
+            "123+ Multiple Fitness Modes: The smart watch supports 123+ professional and extended workout modes, including yoga, running, skipping, cycling, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "Sleep Monitoring: The fitness tracker monitors sleep quality through the 3 stages (Awake, Light sleep and Deep sleep). It tracks your sleep and breathing patterns so you can work on improving your sleep quality.",
+            "Colorful Dial: With the connecting “Da Fit” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as stopwatch, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 25 days of standby time.",
+            "IP68 Waterproof: The fitness watch comes with IP68 ratings for water resistance, so you can wear it for washing hands, showering. (Tips: please do not wear it in hot water.）"
+        ],
+        "images": [
+            "assets/images/P6粉1.webp",
+            "assets/images/P6粉2.webp",
+            "assets/images/P6粉3.webp",
+            "assets/images/P6粉4.webp",
+            "assets/images/P6粉5.webp",
+            "assets/images/P6粉6.webp",
+            "assets/images/P6粉7.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P6粉1-mini.webp",
+            "assets/images/P6粉2-mini.webp",
+            "assets/images/P6粉3-mini.webp",
+            "assets/images/P6粉4-mini.webp",
+            "assets/images/P6粉5-mini.webp",
+            "assets/images/P6粉6-mini.webp",
+            "assets/images/P6粉7-mini.webp"
+        ],
+        "sku": "B0D8QH3M5Q",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
+        "details": [
+            "Bluetooth Calling & Intelligent Notification: With the built-in microphone and speaker, the smart watch can make/answer calls directly. In addition, when the watch is synced to the smartphone, the smart watch can receive messages, calls, and app (WhatsApp, IG, Twitter, Facebook etc.) notifications by getting a vibration alert.",
+            "All-Day Health Tracking: Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes in the Da Fit app.",
+            "1.83 Inches Full Touch Screen: The smart watch has a 1.83 inches full touch TFT screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dark environment, the screen brightness is adjustable, allowing you to easily read the time and data.",
+            "123+ Multiple Fitness Modes: The smart watch supports 123+ professional and extended workout modes, including yoga, running, skipping, cycling, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "Sleep Monitoring: The fitness tracker monitors sleep quality through the 3 stages (Awake, Light sleep and Deep sleep). It tracks your sleep and breathing patterns so you can work on improving your sleep quality.",
+            "Colorful Dial: With the connecting “Da Fit” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as stopwatch, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 25 days of standby time.",
+            "IP68 Waterproof: The fitness watch comes with IP68 ratings for water resistance, so you can wear it for washing hands, showering. (Tips: please do not wear it in hot water.）"
+        ],
+        "images": [
+            "assets/images/P6星光1.webp",
+            "assets/images/P6星光2.webp",
+            "assets/images/P6星光3.webp",
+            "assets/images/P6星光4.webp",
+            "assets/images/P6星光5.webp",
+            "assets/images/P6星光6.webp",
+            "assets/images/P6星光7.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P6星光1-mini.webp",
+            "assets/images/P6星光2-mini.webp",
+            "assets/images/P6星光3-mini.webp",
+            "assets/images/P6星光4-mini.webp",
+            "assets/images/P6星光5-mini.webp",
+            "assets/images/P6星光6-mini.webp",
+            "assets/images/P6星光7-mini.webp"
+        ],
+        "sku": "B0D8QGCW8F",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+         "id": 4,
+        "name": "Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
+        "details": [
+            "Bluetooth Calling & Intelligent Notification: With the built-in microphone and speaker, the smart watch can make/answer calls directly. In addition, when the watch is synced to the smartphone, the smart watch can receive messages, calls, and app (WhatsApp, IG, Twitter, Facebook etc.) notifications by getting a vibration alert.",
+            "All-Day Health Tracking: Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes in the Da Fit app.",
+            "1.83 Inches Full Touch Screen: The smart watch has a 1.83 inches full touch TFT screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dark environment, the screen brightness is adjustable, allowing you to easily read the time and data.",
+            "123+ Multiple Fitness Modes: The smart watch supports 123+ professional and extended workout modes, including yoga, running, skipping, cycling, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "Sleep Monitoring: The fitness tracker monitors sleep quality through the 3 stages (Awake, Light sleep and Deep sleep). It tracks your sleep and breathing patterns so you can work on improving your sleep quality.",
+            "Colorful Dial: With the connecting “Da Fit” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as stopwatch, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 25 days of standby time.",
+            "IP68 Waterproof: The fitness watch comes with IP68 ratings for water resistance, so you can wear it for washing hands, showering. (Tips: please do not wear it in hot water.）"
+        ],
+        "images": [
+            "assets/images/P6灰1.webp",
+            "assets/images/P6灰2.webp",
+            "assets/images/P6灰3.webp",
+            "assets/images/P6灰4.webp",
+            "assets/images/P6灰5.webp",
+            "assets/images/P6灰6.webp",
+            "assets/images/P6灰7.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P6灰1-mini.webp",
+            "assets/images/P6灰2-mini.webp",
+            "assets/images/P6灰3-mini.webp",
+            "assets/images/P6灰4-mini.webp",
+            "assets/images/P6灰5-mini.webp",
+            "assets/images/P6灰6-mini.webp",
+            "assets/images/P6灰7-mini.webp"
+        ],
+        "sku": "B0D8QCC2F8",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
+        "details": [
+            "Calls function: This watch has microphone and loudspeaker, which enables you to make or receive calls after you connect your mobile phone through the APP. When you need it, You can reply or make calls directly through your watch without taking out your mobile phone",
+            "Exercise and health monitoring: KM13 provides 8 daily exercise modes to meet your daily fitness needs. It can record your heart rate, mileage, calories, minutes of activity, and other data in real-time, so that you can adjust your exercise rhythm in a timely manner",
+            "Powerful functions and intelligent notifications: KM13 has many practical functions, including SMS and APP messages (Twitter, Facebook, Messenger, Viber), multimedia control, brightness adjustment, weather display, camera control, long sitting reminder, alarm, stopwatch, and mobile phone search",
+            "SOS Emergency Contact: KM13 can set up emergency contacts, and when needed, you can directly contact and seek help through your watch",
+            "24/7 heart rate and blood oxygen monitor: KM13 supports real-time dynamic monitoring of heart rate, blood oxygen and blood pressure, so that you can better understand your physical condition",
+            "1.85-inch high-definition full touch screen: The metal shell and skin friendly strap provide you with a perfect wearing experience. The 1.83-inch high-definition full touch screen and smooth operating interface provide you with an unparalleled user experience. Over 100 watch dials, allowing you to exchange them anytime you want",
+            "Battery Life & Compatibility: Regular use up to 4-6 days, standby for 15 days. KM13 use magnetic fast charging provides better endurance experience.This watch is suitable for iOS and android smartphone",
+            "Fitness application: KM13 is equipped with its own application software. By pairing the watch with the FitPro application on the mobile phone, you can record all daily health data, such as steps, calorie consumption and other data. Both the app and the watch support multinational languages"
+        ],
+        "images": [
+            "assets/images/KM13-1.webp",
+            "assets/images/KM13-2.webp",
+            "assets/images/KM13-3.webp",
+            "assets/images/KM13-4.webp",
+            "assets/images/KM13-5.webp",
+            "assets/images/KM13-6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/KM13-1-mini.webp",
+            "assets/images/KM13-2-mini.webp",
+            "assets/images/KM13-3-mini.webp",
+            "assets/images/KM13-4-mini.webp",
+            "assets/images/KM13-5-mini.webp",
+            "assets/images/KM13-6-mini.webp"
+        ],
+        "sku": "B0D5QFD5LR",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "ASWEE Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch for Men Women Answer/Make Calls, 1.85 Smartwatch, Fitness Tracker Watch with Heart Rate Sleep Monitor, Multiple Sport Modes, IP68 Waterproof Step Counter Watch for Android IOS",
+        "details": [
+            "[Make / Answer Call]: After connecting to Bluetooth, with the built-in microphone and high-fidelity speaker, you can make and receive calls directly on the fitness watch, keeping you in touch with family or friends anytime, anywhere.",
+            "[Smart Notifications]: The smartwatch supports information reminders and social media notifications (Facebook, WhatsApp, Instagram, Twitter, etc). All notifications are displayed on your wrist and reminded by vibration and wake up screen.",
+            "[1.85 HD Touch Screen & 200+ Personalized Dial]: The smart watch P4 is equipped with a new generation of 1.85 large HD touch screen, which greatly improves the color quality and touch response speed, allowing you to easily browse its various functions. Brightness adjustable allows you to read time and data clearly even under the glare. There are 200+ watch faces for you to choose on the FitPro app, and you can also choose your phone photo as the wallpaper to show your unique style.",
+            "[24/7 Real Time Heart Rate and Sleep Monitor]: The smartwatch has heart rate, blood pressure, blood oxygen monitor functions, always paying attention to your physical health. And the fitness tracker watch can also track your daily activity data like steps, calories, distance and minutes active and generate data. This fit watch can also measure your sleep automatically, which helps you know awake, light, and deep sleep data and remind you to adjust your sleep habits.",
+            "[Multiple Sport Modes]: The fitness watch supports multiple sport modes: walk, run, badminton, volleyball, strength training, bike riding, basketball, football, tennis, etc. Your exercise data is recorded in the app FitPro, so that you can see them clearly and develop your exercise plan to achieve your exercise goals.",
+            "[IP68 Waterproof]: With IP68 waterproof function, you can wear the step tracker watch when washing hands, taking bath or swimming. (Note: the pedometer watch does not prevent hot water )",
+            "[Long Battery Life & Great Compatibility]: Due to the built-in ultra large capacity battery of 180 mAh, the fitness tracker has a normal usage time of 7 days and 15 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 9.2/Android 8.0 or above by bluetooth. The activity tracker is connected to your smartphone with the app FitPro and record your health data, which for you to achieve your health goals.",
+            "[Built-in Speaker & More Practical Gadgets]: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music, enjoy a colorful and intelligent life. The smart watch P4 serves more practical functions, such as calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the smartwatch P4 will be your best choice."
+        ],
+        "images": [
+            "assets/images/P4粉1.webp",
+            "assets/images/P4粉2.webp",
+            "assets/images/P4粉3.webp",
+            "assets/images/P4粉4.webp",
+            "assets/images/P4粉5.webp",
+            "assets/images/P4粉6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P4粉1-mini.webp",
+            "assets/images/P4粉2-mini.webp",
+            "assets/images/P4粉3-mini.webp",
+            "assets/images/P4粉4-mini.webp",
+            "assets/images/P4粉5-mini.webp",
+            "assets/images/P4粉6-mini.webp"
+        ],
+        "sku": "B0DK93YYNB",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "ASWEE Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch for Men Women Answer/Make Calls, 1.85 Smartwatch, Fitness Tracker Watch with Heart Rate Sleep Monitor, Multiple Sport Modes, IP68 Waterproof Step Counter Watch for Android IOS",
+        "details": [
+            "[Make / Answer Call]: After connecting to Bluetooth, with the built-in microphone and high-fidelity speaker, you can make and receive calls directly on the fitness watch, keeping you in touch with family or friends anytime, anywhere.",
+            "[Smart Notifications]: The smartwatch supports information reminders and social media notifications (Facebook, WhatsApp, Instagram, Twitter, etc). All notifications are displayed on your wrist and reminded by vibration and wake up screen.",
+            "[1.85 HD Touch Screen & 200+ Personalized Dial]: The smart watch P4 is equipped with a new generation of 1.85 large HD touch screen, which greatly improves the color quality and touch response speed, allowing you to easily browse its various functions. Brightness adjustable allows you to read time and data clearly even under the glare. There are 200+ watch faces for you to choose on the FitPro app, and you can also choose your phone photo as the wallpaper to show your unique style.",
+            "[24/7 Real Time Heart Rate and Sleep Monitor]: The smartwatch has heart rate, blood pressure, blood oxygen monitor functions, always paying attention to your physical health. And the fitness tracker watch can also track your daily activity data like steps, calories, distance and minutes active and generate data. This fit watch can also measure your sleep automatically, which helps you know awake, light, and deep sleep data and remind you to adjust your sleep habits.",
+            "[Multiple Sport Modes]: The fitness watch supports multiple sport modes: walk, run, badminton, volleyball, strength training, bike riding, basketball, football, tennis, etc. Your exercise data is recorded in the app FitPro, so that you can see them clearly and develop your exercise plan to achieve your exercise goals.",
+            "[IP68 Waterproof]: With IP68 waterproof function, you can wear the step tracker watch when washing hands, taking bath or swimming. (Note: the pedometer watch does not prevent hot water )",
+            "[Long Battery Life & Great Compatibility]: Due to the built-in ultra large capacity battery of 180 mAh, the fitness tracker has a normal usage time of 7 days and 15 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 9.2/Android 8.0 or above by bluetooth. The activity tracker is connected to your smartphone with the app FitPro and record your health data, which for you to achieve your health goals.",
+            "[Built-in Speaker & More Practical Gadgets]: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music, enjoy a colorful and intelligent life. The smart watch P4 serves more practical functions, such as calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the smartwatch P4 will be your best choice."
+        ],
+        "images": [
+            "assets/images/P4黑1.webp",
+            "assets/images/P4黑2.webp",
+            "assets/images/P4黑3.webp",
+            "assets/images/P4黑4.webp",
+            "assets/images/P4黑5.webp",
+            "assets/images/P4黑6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P4黑1-mini.webp",
+            "assets/images/P4黑2-mini.webp",
+            "assets/images/P4黑3-mini.webp",
+            "assets/images/P4黑4-mini.webp",
+            "assets/images/P4黑5-mini.webp",
+            "assets/images/P4黑6-mini.webp"
+        ],
+        "sku": "B0DK94GPB9",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
