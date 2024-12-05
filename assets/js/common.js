@@ -23,8 +23,8 @@ async function setCommon() {
     // 定义新的联系方式
     const newContactInfo = {
         currency: "£",
-        band: "ZPPSNFIT",
-        bandSite: "https://www.zppsnfit.com",
+        band: "AcclaFit",
+        bandSite: "https://acclafit.com",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
         address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
@@ -107,5 +107,5 @@ async function renderCartItems(currencySymbol = '$') {
         cartList.insertAdjacentHTML('beforeend', listItem);
     }
 
-    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${total}`;
+    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${total.toFixed(2)}`;
 }

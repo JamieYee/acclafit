@@ -1,260 +1,417 @@
 [
     {
         "id": 1,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1黑色1.webp",
-            "assets/images/G1黑色2.webp",
-            "assets/images/G1黑色3.webp",
-            "assets/images/G1黑色4.webp",
-            "assets/images/G1黑色5.webp",
-            "assets/images/G1黑色6.webp"
+            "assets/images/P5星光1.webp",
+            "assets/images/P5星光2.webp",
+            "assets/images/P5星光3.webp",
+            "assets/images/P5星光4.webp",
+            "assets/images/P5星光5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1黑色1-mini.webp",
-            "assets/images/G1黑色2-mini.webp",
-            "assets/images/G1黑色3-mini.webp",
-            "assets/images/G1黑色4-mini.webp",
-            "assets/images/G1黑色5-mini.webp",
-            "assets/images/G1黑色6-mini.webp"
+            "assets/images/P5星光1-mini.webp",
+            "assets/images/P5星光2-mini.webp",
+            "assets/images/P5星光3-mini.webp",
+            "assets/images/P5星光4-mini.webp",
+            "assets/images/P5星光5-mini.webp"
         ],
-        "sku": "B0DG26GZC7",
+        "sku": "B0D1CG78NQ",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
         "tags": [
-            "Bluetooth Call",
-            "Message Notification"
+            "Electronics",
+            "Smartwatches"
         ]
     },
     {
         "id": 2,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1粉色1.webp",
-            "assets/images/G1粉色2.webp",
-            "assets/images/G1粉色3.webp",
-            "assets/images/G1粉色4.webp",
-            "assets/images/G1粉色5.webp",
-            "assets/images/G1粉色6.webp"
+            "assets/images/P5黑1.webp",
+            "assets/images/P5黑2.webp",
+            "assets/images/P5黑3.webp",
+            "assets/images/P5黑4.webp",
+            "assets/images/P5黑5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1粉色1-mini.webp",
-            "assets/images/G1粉色2-mini.webp",
-            "assets/images/G1粉色3-mini.webp",
-            "assets/images/G1粉色4-mini.webp",
-            "assets/images/G1粉色5-mini.webp",
-            "assets/images/G1粉色6-mini.webp"
+            "assets/images/P5黑1-mini.webp",
+            "assets/images/P5黑2-mini.webp",
+            "assets/images/P5黑3-mini.webp",
+            "assets/images/P5黑4-mini.webp",
+            "assets/images/P5黑5-mini.webp"
         ],
-        "sku": "B0DG2185X4",
+        "sku": "B0CP616DVP",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
         "tags": [
-            "Bluetooth Call",
-            "Message Notification"
+            "Electronics",
+            "Smartwatches"
         ]
     },
     {
         "id": 3,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1星光1.webp",
-            "assets/images/G1星光2.webp",
-            "assets/images/G1星光3.webp",
-            "assets/images/G1星光4.webp",
-            "assets/images/G1星光5.webp",
-            "assets/images/G1星光6.webp"
+            "assets/images/P5粉1.webp",
+            "assets/images/P5粉2.webp",
+            "assets/images/P5粉3.webp",
+            "assets/images/P5粉4.webp",
+            "assets/images/P5粉5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1星光1-mini.webp",
-            "assets/images/G1星光2-mini.webp",
-            "assets/images/G1星光3-mini.webp",
-            "assets/images/G1星光4-mini.webp",
-            "assets/images/G1星光5-mini.webp",
-            "assets/images/G1星光6-mini.webp"
+            "assets/images/P5粉1-mini.webp",
+            "assets/images/P5粉2-mini.webp",
+            "assets/images/P5粉3-mini.webp",
+            "assets/images/P5粉4-mini.webp",
+            "assets/images/P5粉5-mini.webp"
         ],
-        "sku": "B0DG1YQQQC",
+        "sku": "B0D5LFM91L",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
         "tags": [
-            "Bluetooth Call",
-            "Message Notification"
+            "Electronics",
+            "Smartwatches"
         ]
     },
     {
         "id": 4,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1金属黑1.webp",
-            "assets/images/G1金属黑2.webp",
-            "assets/images/G1金属黑3.webp",
-            "assets/images/G1金属黑4.webp",
-            "assets/images/G1金属黑5.webp",
-            "assets/images/G1金属黑6.webp"
+            "assets/images/P5深紫1.webp",
+            "assets/images/P5深紫2.webp",
+            "assets/images/P5深紫3.webp",
+            "assets/images/P5深紫4.webp",
+            "assets/images/P5深紫5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1金属黑1-mini.webp",
-            "assets/images/G1金属黑2-mini.webp",
-            "assets/images/G1金属黑3-mini.webp",
-            "assets/images/G1金属黑4-mini.webp",
-            "assets/images/G1金属黑5-mini.webp",
-            "assets/images/G1金属黑6-mini.webp"
+            "assets/images/P5深紫1-mini.webp",
+            "assets/images/P5深紫2-mini.webp",
+            "assets/images/P5深紫3-mini.webp",
+            "assets/images/P5深紫4-mini.webp",
+            "assets/images/P5深紫5-mini.webp"
         ],
-        "sku": "B0DG2F8JJ1",
+        "sku": "B0D2LCPMGG",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
         "tags": [
-            "Bluetooth Call",
-            "Message Notification"
+            "Electronics",
+            "Smartwatches"
         ]
     },
     {
         "id": 5,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new,best,sale",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1金属粉1.webp",
-            "assets/images/G1金属粉2.webp",
-            "assets/images/G1金属粉3.webp",
-            "assets/images/G1金属粉4.webp",
-            "assets/images/G1金属粉5.webp",
-            "assets/images/G1金属粉6.webp"
+            "assets/images/P5深蓝1.webp",
+            "assets/images/P5深蓝2.webp",
+            "assets/images/P5深蓝3.webp",
+            "assets/images/P5深蓝4.webp",
+            "assets/images/P5深蓝5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1金属粉1-mini.webp",
-            "assets/images/G1金属粉2-mini.webp",
-            "assets/images/G1金属粉3-mini.webp",
-            "assets/images/G1金属粉4-mini.webp",
-            "assets/images/G1金属粉5-mini.webp",
-            "assets/images/G1金属粉6-mini.webp"
+            "assets/images/P5深蓝1-mini.webp",
+            "assets/images/P5深蓝2-mini.webp",
+            "assets/images/P5深蓝3-mini.webp",
+            "assets/images/P5深蓝4-mini.webp",
+            "assets/images/P5深蓝5-mini.webp"
         ],
-        "sku": "B0DG2FW5RC",
+        "sku": "B0D2LCXFGF",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
         "tags": [
-            "Bluetooth Call",
-            "Message Notification"
+            "Electronics",
+            "Smartwatches"
         ]
     },
     {
         "id": 6,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
         ],
         "images": [
-            "assets/images/G1玫粉1.webp",
-            "assets/images/G1玫粉2.webp",
-            "assets/images/G1玫粉3.webp",
-            "assets/images/G1玫粉4.webp",
-            "assets/images/G1玫粉5.webp",
-            "assets/images/G1玫粉6.webp"
+            "assets/images/P5浅紫1.webp",
+            "assets/images/P5浅紫2.webp",
+            "assets/images/P5浅紫3.webp",
+            "assets/images/P5浅紫4.webp",
+            "assets/images/P5浅紫5.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1玫粉1-mini.webp",
-            "assets/images/G1玫粉2-mini.webp",
-            "assets/images/G1玫粉3-mini.webp",
-            "assets/images/G1玫粉4-mini.webp",
-            "assets/images/G1玫粉5-mini.webp",
-            "assets/images/G1玫粉6-mini.webp"
+            "assets/images/P5浅紫1-mini.webp",
+            "assets/images/P5浅紫2-mini.webp",
+            "assets/images/P5浅紫3-mini.webp",
+            "assets/images/P5浅紫4-mini.webp",
+            "assets/images/P5浅紫5-mini.webp"
         ],
-        "sku": "B0DG29ZXVY",
+        "sku": "B0D2LFM2RZ",
         "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
             "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
+        "details": [
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
+        ],
+        "images": [
+            "assets/images/P5天空蓝1.webp",
+            "assets/images/P5天空蓝2.webp",
+            "assets/images/P5天空蓝3.webp",
+            "assets/images/P5天空蓝4.webp",
+            "assets/images/P5天空蓝5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P5天空蓝1-mini.webp",
+            "assets/images/P5天空蓝2-mini.webp",
+            "assets/images/P5天空蓝3-mini.webp",
+            "assets/images/P5天空蓝4-mini.webp",
+            "assets/images/P5天空蓝5-mini.webp"
+        ],
+        "sku": "B0D8QCVXZV",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
+        "details": [
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
+        ],
+        "images": [
+            "assets/images/P5绿1.webp",
+            "assets/images/P5绿2.webp",
+            "assets/images/P5绿3.webp",
+            "assets/images/P5绿4.webp",
+            "assets/images/P5绿5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P5绿1-mini.webp",
+            "assets/images/P5绿2-mini.webp",
+            "assets/images/P5绿3-mini.webp",
+            "assets/images/P5绿4-mini.webp",
+            "assets/images/P5绿5-mini.webp"
+        ],
+        "sku": "B0D8QCHF9F",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "AcclaFit Smart Watch",
+        "price": "89.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch for Men Women Answer/Make Call, 1.85 inches Smartwatch, Fitness Tracker Watch with Heart Rate Blood Pressure Sleep Monitor, 140+Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS.",
+        "details": [
+            "🎀 Bluetooth Calling & Intelligent Notification：With the built-in microphone and Hi-Fi speaker, the smart watch can make/answer calls directly. In addition, you can get SMS text and SNS messages including Facebook,Twitter, WhatsApp, Linkedin, Messenger and more when the smart watch is synced to the smartphone. The smart watch receives messages, calls, and app notifications by getting a vibration alert on the watches device.",
+            "🎀 All-Day Health Tracking： Built-in high-precision PPG sensor to track your heart rate 24 hours a day. It can also save your resting heart rate data for 7 days to help monitor long-term heart rate changes. You can see this monitoring data on the H Band app. The blood oxygen and blood pressure are measured using reflective-light based sensor on the wrist. Stay calm when you experience shortage of breath, weakness or dizziness.",
+            "🎀 140+ Multiple Fitness Modes： The smart watch supports 140+ professional and extended workout modes, including yoga, swimming, HIIT, running, skipping, cycling, badinton, football, etc, making your exercise more scientific and diverse. This pedometer watch can track your activity data, such as steps, active minutes, distance and calorie consumption, allowing you to keep track of your exercise status in real time.",
+            "🎀 Sleep Monitoring： The AcclaFit fitness tracker monitors sleep quality through the 3 stages: Awake, Light sleep and Deep sleep. It tracks your sleep & breathing patterns so you can work on improving your sleep duration, sleep quality and detect early signs of sleep apnea.",
+            "🎀 IP68 Waterproof： The AcclaFit fitness watch comes with IP68 ratings for water resistance, and has withstood a staggering 200 water pressure cycles, so you can wear it for washing hands, showering, swimming, and diving (Tips: please do not wear it in hot water, including hot shower).",
+            "🎀 1.85 Inches Full Touch Screen and 100+ Custom Dial: The AcclaFit watch has a 1.85 inches full touch LCD screen, presenting a premium image quality for excellent visual effects. Whether it is under strong light or in a dim environment, the screen brightness is adjustable, allowing you to easily read the time and data. At the same time, you can freely choose the 100+ dial style through the mobile application or choose your phone photo to display beautiful scenery and show your personality.",
+            "🎀 Long Battery Life & Great Compatibility: Due to the built-in ultra large capacity battery of 250 mAh, the fitness tracker has a normal usage time of 7 days and 30 days of standby time, but fully charge the battery in just 2 hours. The fitness watch is compatible with smart phones that use iOS 10.0/Android 5.0 or above and bluetooth 5.3 or above. The activity tracker is connected to your smartphone with the app H Band and record your health data, which for you to achieve your health goals.",
+            "🎀 Music Player & More Practical Gadgets: The built-in speaker allows you to listen to music directly through the smart watch, get lost in the music. The AcclaFit smart watch P5 serves more practical functions, such as female cycle tracking, voice Assistant, torch, calculator, calories monitor, pedometer, alarm, stopwatch, sedentary remind and weather display, remote camera, etc. If you are looking for a multifunctional smart watch, the AcclaFit smartwatch P5 will be your best choice."
+        ],
+        "images": [
+            "assets/images/P5酒红1.webp",
+            "assets/images/P5酒红2.webp",
+            "assets/images/P5酒红3.webp",
+            "assets/images/P5酒红4.webp",
+            "assets/images/P5酒红5.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/P5酒红1-mini.webp",
+            "assets/images/P5酒红2-mini.webp",
+            "assets/images/P5酒红3-mini.webp",
+            "assets/images/P5酒红4-mini.webp",
+            "assets/images/P5酒红5-mini.webp"
+        ],
+        "sku": "B0D8QCLNZW",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "AcclaFit Smart Watch",
+        "price": "149.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch Answer/Make Call, 1.3'' Smart Watches for Women Men, Fitness Tracker Watch with Heart Rate/Sleep Monitor, 120+ Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS",
+        "details": [
+            "Comprehensive Health Monitoring: This smart watch offers 24/7 health monitoring, including real-time heart rate, blood oxygen, and blood pressure tracking. Stay informed about your health metrics and make proactive decisions for your well-being.",
+            "Extensive Fitness Tracking: Supports over 120 sports modes, each tracking key data points such as distance, pace, calories, and heart rate for running; speed, distance, duration, and heart rate for cycling; step count, distance, calories, and heart rate for walking; exercise duration, calories, and heart rate for yoga.",
+            "Durable and Practical Design: The watch features an aluminum alloy case and a comfortable, stylish silicone strap. It is also IP68 water-resistant, making it suitable for various environments and weather conditions.",
+            "Long Battery Life: Enjoy the convenience of up to 15 days of battery life on a single charge. Plus, the fast-charging capability ensures you spend more time using the watch and less time waiting for it to charge.",
+            "Smart Connectivity: Easily make and receive calls, and stay updated with instant notifications for messages. Integrated with the Da Fit app, this smart watch helps you track your data, set up training plans, and access a range of fitness courses.",
+            "Enhanced Sleep and Stress Monitoring: Keep track of your sleep patterns and stress levels. Our smart watch provides insights to help you manage stress and improve your sleep quality for a balanced lifestyle.",
+            "Additional Features: Benefit from practical features such as weather updates, sedentary reminders, alarms, and a female menstrual cycle tracker with reminders. This watch is designed to cater to your everyday needs and help you stay organized."
+        ],
+        "images": [
+            "assets/images/D2黑1.webp",
+            "assets/images/D2黑2.webp",
+            "assets/images/D2黑3.webp",
+            "assets/images/D2黑4.webp",
+            "assets/images/D2黑5.webp",
+            "assets/images/D2黑6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/D2黑1-mini.webp",
+            "assets/images/D2黑2-mini.webp",
+            "assets/images/D2黑3-mini.webp",
+            "assets/images/D2黑4-mini.webp",
+            "assets/images/D2黑5-mini.webp",
+            "assets/images/D2黑6-mini.webp"
+        ],
+        "sku": "B0DGLKXBC2",
+        "categories": [
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
@@ -264,41 +421,83 @@
         ]
     },
     {
-        "id": 7,
-        "name": "Smart Watch",
-        "price": 149.99,
-        "category": "new",
-        "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "id": 11,
+        "name": "AcclaFit Smart Watch",
+        "price": "149.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch Answer/Make Call, 1.3'' Smart Watches for Women Men, Fitness Tracker Watch with Heart Rate/Sleep Monitor, 120+ Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
-            "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "Comprehensive Health Monitoring: This smart watch offers 24/7 health monitoring, including real-time heart rate, blood oxygen, and blood pressure tracking. Stay informed about your health metrics and make proactive decisions for your well-being.",
+            "Extensive Fitness Tracking: Supports over 120 sports modes, each tracking key data points such as distance, pace, calories, and heart rate for running; speed, distance, duration, and heart rate for cycling; step count, distance, calories, and heart rate for walking; exercise duration, calories, and heart rate for yoga.",
+            "Durable and Practical Design: The watch features an aluminum alloy case and a comfortable, stylish silicone strap. It is also IP68 water-resistant, making it suitable for various environments and weather conditions.",
+            "Long Battery Life: Enjoy the convenience of up to 15 days of battery life on a single charge. Plus, the fast-charging capability ensures you spend more time using the watch and less time waiting for it to charge.",
+            "Smart Connectivity: Easily make and receive calls, and stay updated with instant notifications for messages. Integrated with the Da Fit app, this smart watch helps you track your data, set up training plans, and access a range of fitness courses.",
+            "Enhanced Sleep and Stress Monitoring: Keep track of your sleep patterns and stress levels. Our smart watch provides insights to help you manage stress and improve your sleep quality for a balanced lifestyle.",
+            "Additional Features: Benefit from practical features such as weather updates, sedentary reminders, alarms, and a female menstrual cycle tracker with reminders. This watch is designed to cater to your everyday needs and help you stay organized."
         ],
         "images": [
-            "assets/images/G1浅粉1.webp",
-            "assets/images/G1浅粉2.webp",
-            "assets/images/G1浅粉3.webp",
-            "assets/images/G1浅粉4.webp",
-            "assets/images/G1浅粉5.webp",
-            "assets/images/G1浅粉6.webp"
+            "assets/images/D2粉1.webp",
+            "assets/images/D2粉2.webp",
+            "assets/images/D2粉3.webp",
+            "assets/images/D2粉4.webp",
+            "assets/images/D2粉5.webp",
+            "assets/images/D2粉6.webp"
         ],
         "thumbnail_images": [
-            "assets/images/G1浅粉1-mini.webp",
-            "assets/images/G1浅粉2-mini.webp",
-            "assets/images/G1浅粉3-mini.webp",
-            "assets/images/G1浅粉4-mini.webp",
-            "assets/images/G1浅粉5-mini.webp",
-            "assets/images/G1浅粉6-mini.webp"
+            "assets/images/D2粉1-mini.webp",
+            "assets/images/D2粉2-mini.webp",
+            "assets/images/D2粉3-mini.webp",
+            "assets/images/D2粉4-mini.webp",
+            "assets/images/D2粉5-mini.webp",
+            "assets/images/D2粉6-mini.webp"
         ],
-        "sku": "B0DGTF1S5B",
+        "sku": "B0DGLJYT76",
         "categories": [
-            "Electronics",
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Bluetooth Call",
+            "Message Notification"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "AcclaFit Smart Watch",
+        "price": "149.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "Smart Watch Answer/Make Call, 1.38'' Smart Watches for Women Men, Fitness Tracker Watch with Heart Rate/Sleep Monitor, 120+ Sports, IP68 Waterproof Step Counter Watch Compatible with Android IOS",
+        "details": [
+            "Comprehensive Health Monitoring: This smart watch offers 24/7 health monitoring, including real-time heart rate, blood oxygen, and blood pressure tracking. Stay informed about your health metrics and make proactive decisions for your well-being.",
+            "Extensive Fitness Tracking: Supports over 120 sports modes, each tracking key data points such as distance, pace, calories, and heart rate for running; speed, distance, duration, and heart rate for cycling; step count, distance, calories, and heart rate for walking; exercise duration, calories, and heart rate for yoga.",
+            "Durable and Practical Design: The watch features an aluminum alloy case and a comfortable, stylish silicone strap. It is also IP68 water-resistant, making it suitable for various environments and weather conditions.",
+            "Long Battery Life: Enjoy the convenience of up to 15 days of battery life on a single charge. Plus, the fast-charging capability ensures you spend more time using the watch and less time waiting for it to charge.",
+            "Smart Connectivity: Easily make and receive calls, and stay updated with instant notifications for messages. Integrated with the Da Fit app, this smart watch helps you track your data, set up training plans, and access a range of fitness courses.",
+            "Enhanced Sleep and Stress Monitoring: Keep track of your sleep patterns and stress levels. Our smart watch provides insights to help you manage stress and improve your sleep quality for a balanced lifestyle.",
+            "Additional Features: Benefit from practical features such as weather updates, sedentary reminders, alarms, and a female menstrual cycle tracker with reminders. This watch is designed to cater to your everyday needs and help you stay organized."
+        ],
+        "images": [
+            "assets/images/D2灰1.webp",
+            "assets/images/D2灰2.webp",
+            "assets/images/D2灰3.webp",
+            "assets/images/D2灰4.webp",
+            "assets/images/D2灰5.webp",
+            "assets/images/D2灰6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/D2灰1-mini.webp",
+            "assets/images/D2灰2-mini.webp",
+            "assets/images/D2灰3-mini.webp",
+            "assets/images/D2灰4-mini.webp",
+            "assets/images/D2灰5-mini.webp",
+            "assets/images/D2灰6-mini.webp"
+        ],
+        "sku": "B0DGLLZWP8",
+        "categories": [
+            "Electronics & Photo",
             "Wearable Technology",
             "Smartwatches"
         ],
