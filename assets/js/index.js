@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
+      //修改最低价格
+      const lowestPrice = Math.min(...products.map(product => product.price));
+      document.querySelectorAll('.price-value').forEach(element => {
+        element.textContent = '$' + lowestPrice;
+      });
       //获取所有.response - product 容器
       const containers = document.querySelectorAll('.response-product');
       // 遍历每个容器
       containers.forEach((container, index) => {
-        //修改最低价格
-        const lowestPrice = Math.min(...products.map(product => product.price));
-        document.querySelectorAll('price-value').forEach(element => {
-          element.textContent = '$' + lowestPrice;
-      });
         // 根据容器属性确定布局类型
         const layoutType = container.dataset.category; // 使用 data-category 属性来区分布局类型
         // 获取当前存在的 slick 容器
