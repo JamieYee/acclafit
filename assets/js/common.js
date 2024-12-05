@@ -107,5 +107,5 @@ async function renderCartItems(currencySymbol = '$') {
         cartList.insertAdjacentHTML('beforeend', listItem);
     }
 
-    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${total}`;
+    document.querySelector('.rustrot-mini-cart__total .rustrot-Price-amount').innerHTML = `<span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${total.toFixed(2)}`;
 }
