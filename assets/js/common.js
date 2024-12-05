@@ -24,7 +24,7 @@ async function setCommon() {
     const newContactInfo = {
         currency: "$",
         band: "Asmoda",
-        bandSite: "https://asmoda.store/",
+        bandSite: "https://asmoda.store",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
         address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
