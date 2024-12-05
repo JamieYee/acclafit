@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Duoripe Smart Watch",
-        "price": "89.99",
+        "price": "79.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "Smart Watch for Men Answer/Make Calls, Fitness Tracker with 1.43 AMOLED Touch Display, 120 Sport Modes Smartwatch with Heart Rate Blood Oxygen and Sleep Monitor, IP68 Waterproof Watch for Android iOS",
@@ -17,18 +17,18 @@
             "Always-on Battery Life & Compatibility: The D3 smart watch offers up to 14 days of battery life under typical usage scenarios and is equipped with magnetic fast charging to free you from long recharge times. Advanced Bluetooth 5.3 technology enables faster transmission speeds and stable connectivity with devices. It is compatible with iOS 9.0, Android 5.0, and above."
         ],
         "images": [
-            "assets/images/D3黑1.webp",
-            "assets/images/D3黑2.webp",
-            "assets/images/D3黑3.webp",
-            "assets/images/D3黑4.webp",
-            "assets/images/D3黑5.webp"
+            "assets/images/D3黑1.jpg",
+            "assets/images/D3黑2.jpg",
+            "assets/images/D3黑3.jpg",
+            "assets/images/D3黑4.jpg",
+            "assets/images/D3黑5.jpg"
         ],
         "thumbnail_images": [
-            "assets/images/D3黑1-mini.webp",
-            "assets/images/D3黑2-mini.webp",
-            "assets/images/D3黑3-mini.webp",
-            "assets/images/D3黑4-mini.webp",
-            "assets/images/D3黑5-mini.webp"
+            "assets/images/D3黑1-mini.jpg",
+            "assets/images/D3黑2-mini.jpg",
+            "assets/images/D3黑3-mini.jpg",
+            "assets/images/D3黑4-mini.jpg",
+            "assets/images/D3黑5-mini.jpg"
         ],
         "sku": "B0D97MFSNW",
         "categories": [
