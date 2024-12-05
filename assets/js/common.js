@@ -23,8 +23,8 @@ async function setCommon() {
     // 定义新的联系方式
     const newContactInfo = {
         currency: "£",
-        band: "Duoripe",
-        bandSite: "https://Duoripe.com",
+        band: "imfrchcs",
+        bandSite: "https://imfrchcs.com",
         phone: "(+44) 7496 274719",
         email: "amazonbeboss@gmail.com",
         address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
