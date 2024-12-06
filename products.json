@@ -30,6 +30,12 @@
             "assets/images/P5星光4-mini.webp",
             "assets/images/P5星光5-mini.webp"
         ],
+        "descriptionImages":[
+            "assets/images/a.jpg",
+            "assets/images/b.jpg",
+            "assets/images/c.jpg",
+            "assets/images/d.jpg"
+        ],
         "sku": "B0D1CG78NQ",
         "categories": [
             "Electronics & Photo",
