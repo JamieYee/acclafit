@@ -29,6 +29,14 @@
             "assets/images/B6-Black-4-mini.webp",
             "assets/images/B6-Black-5-mini.webp"
         ],
+        "descriptionImages": [
+            "assets/images/B6-Black-a.webp",
+            "assets/images/B6-Black-b.webp",
+            "assets/images/B6-Black-c.webp",
+            "assets/images/B6-Black-d.webp",
+            "assets/images/B6-Black-e.webp"
+        ],
+
         "sku": "B0DHVM893F",
         "categories": [
             "Sports & Outdoors",
@@ -70,6 +78,13 @@
             "assets/images/B6-Pink-3-mini.webp",
             "assets/images/B6-Pink-4-mini.webp",
             "assets/images/B6-Pink-5-mini.webp"
+        ],
+        "descriptionImages": [
+            "assets/images/B6-Pink-a.webp",
+            "assets/images/B6-Pink-b.webp",
+            "assets/images/B6-Pink-c.webp",
+            "assets/images/B6-Pink-d.webp",
+            "assets/images/B6-Pink-e.webp"
         ],
         "sku": "B0DP7Q4KWX",
         "categories": [
@@ -113,6 +128,13 @@
             "assets/images/B6-Starlight-4-mini.webp",
             "assets/images/B6-Starlight-5-mini.webp"
         ],
+        "descriptionImages": [
+            "assets/images/B6-Starlight-a.webp",
+            "assets/images/B6-Starlight-b.webp",
+            "assets/images/B6-Starlight-c.webp",
+            "assets/images/B6-Starlight-d.webp",
+            "assets/images/B6-Starlight-e.webp"
+        ],
         "sku": "B0DP7TX2ML",
         "categories": [
             "Sports & Outdoors",
@@ -154,6 +176,13 @@
             "assets/images/B6-Deep Purple-3-mini.webp",
             "assets/images/B6-Deep Purple-4-mini.webp",
             "assets/images/B6-Deep Purple-5-mini.webp"
+        ],
+        "descriptionImages": [
+            "assets/images/B6-Deep Purple-a.webp",
+            "assets/images/B6-Deep Purple-b.webp",
+            "assets/images/B6-Deep Purple-c.webp",
+            "assets/images/B6-Deep Purple-d.webp",
+            "assets/images/B6-Deep Purple-e.webp"
         ],
         "sku": "B0DJ7DK3VP",
         "categories": [
@@ -197,6 +226,13 @@
             "assets/images/B6-Purple-4-mini.webp",
             "assets/images/B6-Purple-5-mini.webp"
         ],
+        "descriptionImages": [
+            "assets/images/B6-Purple-a.webp",
+            "assets/images/B6-Purple-b.webp",
+            "assets/images/B6-Purple-c.webp",
+            "assets/images/B6-Purple-d.webp",
+            "assets/images/B6-Purple-e.webp"
+        ],
         "sku": "B0DKFNKM34",
         "categories": [
             "Sports & Outdoors",
@@ -238,6 +274,13 @@
             "assets/images/B6-Blue-3-mini.webp",
             "assets/images/B6-Blue-4-mini.webp",
             "assets/images/B6-Blue-5-mini.webp"
+        ],
+        "descriptionImages": [
+            "assets/images/B6-Blue-a.webp",
+            "assets/images/B6-Blue-b.webp",
+            "assets/images/B6-Blue-c.webp",
+            "assets/images/B6-Blue-d.webp",
+            "assets/images/B6-Blue-e.webp"
         ],
         "sku": "B0DJ7C8PDM",
         "categories": [
@@ -281,6 +324,13 @@
             "assets/images/B6-Orange-4-mini.webp",
             "assets/images/B6-Orange-5-mini.webp"
         ],
+        "descriptionImages": [
+            "assets/images/B6-Orange-a.webp",
+            "assets/images/B6-Orange-b.webp",
+            "assets/images/B6-Orange-c.webp",
+            "assets/images/B6-Orange-d.webp",
+            "assets/images/B6-Orange-e.webp"
+        ],
         "sku": "B0D8VV2CPL",
         "categories": [
             "Sports & Outdoors",
@@ -322,6 +372,13 @@
             "assets/images/B6-Burgundy-3-mini.webp",
             "assets/images/B6-Burgundy-4-mini.webp",
             "assets/images/B6-Burgundy-5-mini.webp"
+        ],
+        "descriptionImages": [
+            "assets/images/B6-Burgundy-a.webp",
+            "assets/images/B6-Burgundy-b.webp",
+            "assets/images/B6-Burgundy-c.webp",
+            "assets/images/B6-Burgundy-d.webp",
+            "assets/images/B6-Burgundy-e.webp"
         ],
         "sku": "B0D941Y919",
         "categories": [
