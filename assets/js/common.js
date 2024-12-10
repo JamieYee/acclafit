@@ -65,6 +65,11 @@ async function setCommon() {
     // 获取版权信息的 <p> 标签
     document.querySelector('.section-016 .col-md-6 p').innerHTML = `© 2024 by <a href="${newContactInfo.bandSite}">${newContactInfo.band}</a>. All Rights Reserved.`;
 
+    // 修改订阅邮箱提示语
+    document.querySelector('.newsletter-wrap .desc').textContent = 'Subscribe to our newsletter for exclusive updates, tips, and special offers delivered straight to your inbox!';
+    // 找到包含 "Orders and Returns" 的 <li> 元素
+    document.querySelector('li a[href="order-tracking.html"]').closest('li').remove();
+    
     renderCartItems(newContactInfo.currency);
 }
 
