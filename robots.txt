@@ -4,6 +4,7 @@ Allow: /index.html
 
 # 禁止抓取根目录之外的任何内容（包括子目录、其他文件类型）
 Disallow: /assets/
+Disallow: /*? #止抓取所有包含查询参数的页面
 Disallow: /404.html
 Disallow: /about.html
 Disallow: /blog.html
