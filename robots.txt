@@ -1,0 +1,38 @@
+User-agent: *
+# 允许根目录下的 .html 文件
+Allow: /index.html
+
+# 禁止抓取根目录之外的任何内容（包括子目录、其他文件类型）
+Disallow: /assets/
+Disallow: /*? #止抓取所有包含查询参数的页面
+Disallow: /about.html
+Disallow: /blog.html
+Disallow: /cart.html
+Disallow: /checkout.html
+Disallow: /compare.html
+Disallow: /contact.html
+Disallow: /dashboard.html
+Disallow: /downloads.html
+Disallow: /edit-account.html
+Disallow: /edit-address.html
+Disallow: /my-account.html
+Disallow: /orders.html
+Disallow: /order-tracking.html
+Disallow: /shop.html
+Disallow: /shop-leftsidebar.html
+Disallow: /shop-list.html
+Disallow: /shop-rightsidebar.html
+Disallow: /single-post.html
+Disallow: /single-product.html
+Disallow: /single-product-360deg.html
+Disallow: /single-product-bundle.html
+Disallow: /single-product-external.html
+Disallow: /single-product-group.html
+Disallow: /single-product-onsale.html
+Disallow: /single-product-outofstock.html
+Disallow: /single-product-policy.html
+Disallow: /single-product-simple.html
+Disallow: /single-product-video.html
+Disallow: /wishlist.html
+Disallow: /products.json
+

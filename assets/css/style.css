@@ -13957,7 +13957,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 }
 
 .container-table:not(:last-child) {
-    padding-bottom: 30px;
+    padding-bottom: 0;
 }
 
 .container-cell {

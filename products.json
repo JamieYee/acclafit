@@ -1,8 +1,8 @@
 [
     {
-         "id": 1,
-        "name": "Smart Watch",
-        "price": "89.99",
+        "id": 1,
+        "name": "ASWEE Smart Watch P6 Black",
+        "price": "79.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -34,7 +34,7 @@
             "assets/images/P6黑6-mini.webp",
             "assets/images/P6黑7-mini.webp"
         ],
-        "sku": "B0D8QJ1QBS",
+        "sku": "15060959351228",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -47,8 +47,8 @@
     },
     {
         "id": 2,
-        "name": "Smart Watch",
-        "price": "89.99",
+        "name": "ASWEE Smart Watch P6 Pink",
+        "price": "79.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -80,7 +80,7 @@
             "assets/images/P6粉6-mini.webp",
             "assets/images/P6粉7-mini.webp"
         ],
-        "sku": "B0D8QH3M5Q",
+        "sku": "85060959351210",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -93,8 +93,8 @@
     },
     {
         "id": 3,
-        "name": "Smart Watch",
-        "price": "89.99",
+        "name": "ASWEE Smart Watch P6 Starlight",
+        "price": "79.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -126,7 +126,7 @@
             "assets/images/P6星光6-mini.webp",
             "assets/images/P6星光7-mini.webp"
         ],
-        "sku": "B0D8QGCW8F",
+        "sku": "75060959351213",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -139,8 +139,8 @@
     },
     {
          "id": 4,
-        "name": "Smart Watch",
-        "price": "89.99",
+        "name": "ASWEE Smart Watch P6 LightBlack",
+        "price": "79.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -172,7 +172,7 @@
             "assets/images/P6灰6-mini.webp",
             "assets/images/P6灰7-mini.webp"
         ],
-        "sku": "B0D8QCC2F8",
+        "sku": "65060959351209",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -185,8 +185,8 @@
     },
     {
         "id": 5,
-        "name": "Smart Watch",
-        "price": "89.99",
+        "name": "ASWEE Smart Watch KM13 Black",
+        "price": "9.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
@@ -216,7 +216,7 @@
             "assets/images/KM13-5-mini.webp",
             "assets/images/KM13-6-mini.webp"
         ],
-        "sku": "B0D5QFD5LR",
+        "sku": "75060959351114",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -229,8 +229,96 @@
     },
     {
         "id": 6,
-        "name": "ASWEE Smart Watch",
-        "price": "89.99",
+        "name": "ASWEE Smart Watch KM13 Black",
+        "price": "19.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
+        "details": [
+            "Calls function: This watch has microphone and loudspeaker, which enables you to make or receive calls after you connect your mobile phone through the APP. When you need it, You can reply or make calls directly through your watch without taking out your mobile phone",
+            "Exercise and health monitoring: KM13 provides 8 daily exercise modes to meet your daily fitness needs. It can record your heart rate, mileage, calories, minutes of activity, and other data in real-time, so that you can adjust your exercise rhythm in a timely manner",
+            "Powerful functions and intelligent notifications: KM13 has many practical functions, including SMS and APP messages (Twitter, Facebook, Messenger, Viber), multimedia control, brightness adjustment, weather display, camera control, long sitting reminder, alarm, stopwatch, and mobile phone search",
+            "SOS Emergency Contact: KM13 can set up emergency contacts, and when needed, you can directly contact and seek help through your watch",
+            "24/7 heart rate and blood oxygen monitor: KM13 supports real-time dynamic monitoring of heart rate, blood oxygen and blood pressure, so that you can better understand your physical condition",
+            "1.85-inch high-definition full touch screen: The metal shell and skin friendly strap provide you with a perfect wearing experience. The 1.83-inch high-definition full touch screen and smooth operating interface provide you with an unparalleled user experience. Over 100 watch dials, allowing you to exchange them anytime you want",
+            "Battery Life & Compatibility: Regular use up to 4-6 days, standby for 15 days. KM13 use magnetic fast charging provides better endurance experience.This watch is suitable for iOS and android smartphone",
+            "Fitness application: KM13 is equipped with its own application software. By pairing the watch with the FitPro application on the mobile phone, you can record all daily health data, such as steps, calorie consumption and other data. Both the app and the watch support multinational languages"
+        ],
+        "images": [
+            "assets/images/KM13nd-1.webp",
+            "assets/images/KM13nd-2.webp",
+            "assets/images/KM13nd-3.webp",
+            "assets/images/KM13nd-4.webp",
+            "assets/images/KM13nd-5.webp",
+            "assets/images/KM13nd-6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/KM13nd-1-mini.webp",
+            "assets/images/KM13nd-2-mini.webp",
+            "assets/images/KM13nd-3-mini.webp",
+            "assets/images/KM13nd-4-mini.webp",
+            "assets/images/KM13nd-5-mini.webp",
+            "assets/images/KM13nd-6-mini.webp"
+        ],
+        "sku": "85060959351449",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "ASWEE Smart Watch KM13 Black",
+        "price": "29.99",
+        "category": "new best.sale",
+        "availability": "In stock",
+        "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
+        "details": [
+            "Calls function: This watch has microphone and loudspeaker, which enables you to make or receive calls after you connect your mobile phone through the APP. When you need it, You can reply or make calls directly through your watch without taking out your mobile phone",
+            "Exercise and health monitoring: KM13 provides 8 daily exercise modes to meet your daily fitness needs. It can record your heart rate, mileage, calories, minutes of activity, and other data in real-time, so that you can adjust your exercise rhythm in a timely manner",
+            "Powerful functions and intelligent notifications: KM13 has many practical functions, including SMS and APP messages (Twitter, Facebook, Messenger, Viber), multimedia control, brightness adjustment, weather display, camera control, long sitting reminder, alarm, stopwatch, and mobile phone search",
+            "SOS Emergency Contact: KM13 can set up emergency contacts, and when needed, you can directly contact and seek help through your watch",
+            "24/7 heart rate and blood oxygen monitor: KM13 supports real-time dynamic monitoring of heart rate, blood oxygen and blood pressure, so that you can better understand your physical condition",
+            "1.85-inch high-definition full touch screen: The metal shell and skin friendly strap provide you with a perfect wearing experience. The 1.83-inch high-definition full touch screen and smooth operating interface provide you with an unparalleled user experience. Over 100 watch dials, allowing you to exchange them anytime you want",
+            "Battery Life & Compatibility: Regular use up to 4-6 days, standby for 15 days. KM13 use magnetic fast charging provides better endurance experience.This watch is suitable for iOS and android smartphone",
+            "Fitness application: KM13 is equipped with its own application software. By pairing the watch with the FitPro application on the mobile phone, you can record all daily health data, such as steps, calorie consumption and other data. Both the app and the watch support multinational languages"
+        ],
+        "images": [
+            "assets/images/KM13rd-1.webp",
+            "assets/images/KM13rd-2.webp",
+            "assets/images/KM13rd-3.webp",
+            "assets/images/KM13rd-4.webp",
+            "assets/images/KM13rd-5.webp",
+            "assets/images/KM13rd-6.webp"
+        ],
+        "thumbnail_images": [
+            "assets/images/KM13rd-1-mini.webp",
+            "assets/images/KM13rd-2-mini.webp",
+            "assets/images/KM13rd-3-mini.webp",
+            "assets/images/KM13rd-4-mini.webp",
+            "assets/images/KM13rd-5-mini.webp",
+            "assets/images/KM13rd-6-mini.webp"
+        ],
+        "sku": "45060959351472",
+        "categories": [
+            "Electronics & Photo",
+            "Wearable Technology",
+            "Smartwatches"
+        ],
+        "tags": [
+            "Electronics",
+            "Smartwatches"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "ASWEE Smart Watch P4 Pink",
+        "price": "19.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch for Men Women Answer/Make Calls, 1.85 Smartwatch, Fitness Tracker Watch with Heart Rate Sleep Monitor, Multiple Sport Modes, IP68 Waterproof Step Counter Watch for Android IOS",
@@ -260,7 +348,7 @@
             "assets/images/P4粉5-mini.webp",
             "assets/images/P4粉6-mini.webp"
         ],
-        "sku": "B0DK93YYNB",
+        "sku": "85060959351364",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
@@ -272,9 +360,9 @@
         ]
     },
     {
-        "id": 7,
-        "name": "ASWEE Smart Watch",
-        "price": "89.99",
+        "id": 9,
+        "name": "ASWEE Smart Watch P4 Black",
+        "price": "19.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch for Men Women Answer/Make Calls, 1.85 Smartwatch, Fitness Tracker Watch with Heart Rate Sleep Monitor, Multiple Sport Modes, IP68 Waterproof Step Counter Watch for Android IOS",
@@ -304,7 +392,7 @@
             "assets/images/P4黑5-mini.webp",
             "assets/images/P4黑6-mini.webp"
         ],
-        "sku": "B0DK94GPB9",
+        "sku": "75060959351367",
         "categories": [
             "Electronics & Photo",
             "Wearable Technology",
