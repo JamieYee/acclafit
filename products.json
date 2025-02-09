@@ -1,20 +1,17 @@
 [
     {
         "id": 1,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new,best,sale",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1黑色1.webp",
@@ -32,7 +29,7 @@
             "assets/images/G1黑色5-mini.webp",
             "assets/images/G1黑色6-mini.webp"
         ],
-        "sku": "B0DG26GZC7",
+        "sku": "696168745282",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -45,20 +42,17 @@
     },
     {
         "id": 2,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new,best,sale",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1粉色1.webp",
@@ -76,7 +70,7 @@
             "assets/images/G1粉色5-mini.webp",
             "assets/images/G1粉色6-mini.webp"
         ],
-        "sku": "B0DG2185X4",
+        "sku": "10782003633115",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -89,20 +83,17 @@
     },
     {
         "id": 3,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new,best,sale",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1星光1.webp",
@@ -120,7 +111,7 @@
             "assets/images/G1星光5-mini.webp",
             "assets/images/G1星光6-mini.webp"
         ],
-        "sku": "B0DG1YQQQC",
+        "sku": "10782003633139",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -133,20 +124,17 @@
     },
     {
         "id": 4,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new,best,sale",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1金属黑1.webp",
@@ -164,7 +152,7 @@
             "assets/images/G1金属黑5-mini.webp",
             "assets/images/G1金属黑6-mini.webp"
         ],
-        "sku": "B0DG2F8JJ1",
+        "sku": "10782003633108",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -177,20 +165,17 @@
     },
     {
         "id": 5,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new,best,sale",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1金属粉1.webp",
@@ -208,7 +193,7 @@
             "assets/images/G1金属粉5-mini.webp",
             "assets/images/G1金属粉6-mini.webp"
         ],
-        "sku": "B0DG2FW5RC",
+        "sku": "10782003633122",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -221,20 +206,17 @@
     },
     {
         "id": 6,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1玫粉1.webp",
@@ -252,7 +234,7 @@
             "assets/images/G1玫粉5-mini.webp",
             "assets/images/G1玫粉6-mini.webp"
         ],
-        "sku": "B0DG29ZXVY",
+        "sku": "10782003633146",
         "categories": [
             "Electronics",
             "Wearable Technology",
@@ -265,20 +247,17 @@
     },
     {
         "id": 7,
-        "name": "Smart Watch",
+        "name": "G1 Smart Watch",
         "price": 149.99,
         "category": "new",
         "availability": "In stock1",
-        "description": "ZPPSNFIT Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
+        "description": "ZPPSNFIT G1 Smart Watch, 1.43’’ AMOLED Smart Watches for Men Women (Answer/Make Call), Fitness Tracker with Heart Rate/Sleep Monitor, IP68 Waterproof Activity Tracker, Pedometer for Android iOS",
         "details": [
-            "Bluetooth Call: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer or make calls, view call history and store contacts through directly use the smartwatch.",
-            "Message Notification: The smart watch also provides notifications of social media messages including facebook, whatsApp, instagram, twitter, etc. through vibrating alerts. So that you will never miss any important information.",
-            "Unique Touch Screen: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch color screen with outstanding high resolution and high touch sensitivity, which can bring you a unique visual effect and better interactive experience.",
-            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data such as heart rate and sleeping. It will provide comprehensive sleep quality analysis.",
-            "Colorful Dial: With the connecting “H Band” app, you can download personalized dials for free or choose your own favorite photo to switch dials and set it as your fitness tracker desktop.",
+            "Bluetooth Call and Message Notification: Smart watch is equipped with built-in hd speaker, after connecting to your smartphone via bluetooth, you can answer, make calls, receive notifications of social media messages through vibrating alerts.",
+            "HD Touch Screen and Colorful Dial: The AMOLED smart watch is equipped with 466x466 ultra-large HD full-touch screen with outstanding sensitivity. You can choose your own favorite photo to switch dials by H Band APP.",
             "150+ Sports Modes and IP68 Waterproof: The AMOLED smartwatch supports multiple sports modes, including running, cycling, walking, football etc. and record your data. The waterproof smartwatch can be used in many activities.",
-            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time.",
-            "Connection App and Note: Synchronize to the mobile phone app H Band, you can understand your health status by fitness tracker watch to adapt a healthier lifestyle. The watch is not recommended to take shower and swimming."
+            "24-Hour Health Monitoring: Smart watch adopting advanced sensors, accurately monitors and records your healthy data, providing comprehensive sleep quality analysis. Note: The watch is not recommended to take shower and swimming.",
+            "Multifunctional and Long Battery Life: Smart watch has multiple functions such as find your phone, sedentary reminder, music control etc. The sport tracker with 5-7 days of normal use and about 30 days of standby time."
         ],
         "images": [
             "assets/images/G1浅粉1.webp",
@@ -296,7 +275,7 @@
             "assets/images/G1浅粉5-mini.webp",
             "assets/images/G1浅粉6-mini.webp"
         ],
-        "sku": "B0DGTF1S5B",
+        "sku": "10782003633467",
         "categories": [
             "Electronics",
             "Wearable Technology",
