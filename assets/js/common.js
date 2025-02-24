@@ -57,7 +57,7 @@ async function setCommon() {
 
     // 定义新的联系方式
     const newContactInfo = {
-        currency: localStorage.getItem('selectedCurrency')|| "$",
+        currency: localStorage.getItem('selectedCurrency') || "$",
         band: "BUZHIWU",
         bandSite: "https://www.buzhiwu.com",
         phone: "(+44) 7496 274719",
@@ -175,7 +175,13 @@ async function renderCartItems(currencySymbol = '$') {
             continue; // 如果找不到产品，跳过该项
         }
 
-        const subtotal = cartMap[productId] * product.price; // 计算小计
+        const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+        // 根据 currencySymbol 修改价格
+        let modifiedPrice = product.price;
+        if (currencySymbol === "£") {
+            modifiedPrice = 89.99;
+        } 
+        const subtotal = cartMap[productId] * modifiedPrice; // 计算小计
         total += subtotal; // 将当前小计累加到总金额
 
         // 创建列表项 HTML
@@ -185,7 +191,7 @@ async function renderCartItems(currencySymbol = '$') {
                     <img src="${product.images[0]}" class="attachment-rustrot_thumbnail size-rustrot_thumbnail" alt="${product.name}" width="600" height="778">
                     ${product.name}&nbsp;
                 </a>
-                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${product.price}</span>
+                <span class="quantity">${cartMap[productId]} × <span class="rustrot-Price-amount amount"><span class="rustrot-Price-currencySymbol">${currencySymbol}</span>${modifiedPrice}</span>
                 </span>
             </li>
         `;

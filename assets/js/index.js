@@ -11,10 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('products.json')
     .then(response => response.json())
     .then(products => {
-      //修改最低价格
-      const lowestPrice = Math.min(...products.map(product => product.price));
+ 
+      const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+      // 根据 currencySymbol  修改最低价格
+      let lowestPrice = Math.min(...products.map(product => product.price));
+      if (currencySymbol === "£") {
+        lowestPrice = 89.99;
+      }
+
       document.querySelectorAll('.price-value').forEach(element => {
-        element.textContent = '$' + lowestPrice;
+        element.textContent = currencySymbol + lowestPrice;
       });
       //获取所有.response - product 容器
       const containers = document.querySelectorAll('.response-product');
@@ -70,6 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderProduct(product, layoutType, container) {
+  const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+  // 根据 currencySymbol 修改价格
+  let modifiedPrice = product.price;
+  if (currencySymbol === "£") {
+      modifiedPrice = 89.99;
+  }
   // 检查是否符合当前 layoutType 的分类
   if (product.category.includes(layoutType)) {
     const productItem = document.createElement('div');
@@ -105,7 +117,7 @@ function renderProduct(product, layoutType, container) {
               </div>
               <span class="price">
                 <span class="rustrot-Price-amount amount">
-                  <span class="rustrot-Price-currencySymbol">$</span>${product.price}
+                  <span class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}
                 </span>
               </span>
             </div>
@@ -132,7 +144,7 @@ function renderProduct(product, layoutType, container) {
                                 <span class="review">(0)</span></div>
                             <span class="price"><span
                                 class="rustrot-Price-amount amount"><span
-                                class="rustrot-Price-currencySymbol">$</span>${product.price}</span>
+                                class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}</span>
                             </span>
                         </div>
                     </div> `;
@@ -159,7 +171,7 @@ function renderProduct(product, layoutType, container) {
                                              <span class="review">(0)</span></div>
                                          <span class="price"><span
                                              class="rustrot-Price-amount amount"><span
-                                             class="rustrot-Price-currencySymbol">£</span>${product.price}</span>
+                                             class="rustrot-Price-currencySymbol">£</span>${modifiedPrice}</span>
                                          </span>
                                      </div>
                                 </div>`;

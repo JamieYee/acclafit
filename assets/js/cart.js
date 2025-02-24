@@ -17,7 +17,15 @@ document.addEventListener("DOMContentLoaded", function() {
         let total = 0; // 定义一个变量来保存总金额
         for (let productId in cartMap) {
             const product = products[productId - 1];
-            const subtotal = cartMap[productId] * product.price;; // 计算小计
+
+            const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+            // 根据 currencySymbol 修改价格
+            let modifiedPrice = product.price;
+            if (currencySymbol === "£") {
+                modifiedPrice = 89.99;
+            }
+
+            const subtotal = cartMap[productId] * modifiedPrice; // 计算小计
             total += subtotal; // 将当前小计累加到总金额
             // 打印 name, price, images, quantity
             // console.log('Product Name:', product.name);
@@ -43,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </td>
                 <td class="product-price" data-title="Price">
                     <span class="rustrot-Price-amount amount">
-                        <span class="rustrot-Price-currencySymbol">$</span>${product.price}
+                        <span class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}
                     </span>
                 </td>
                 <td class="product-quantity" data-title="Quantity">

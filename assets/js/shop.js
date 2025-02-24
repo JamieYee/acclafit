@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = document.querySelector('.products'); // 获取 ul.products
 
       products.forEach(product => {
+
+        const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+        // 根据 currencySymbol 修改价格
+        let modifiedPrice = product.price;
+        if (currencySymbol === "£") {
+            modifiedPrice = 89.99;
+        }
         // 根据 JSON 数据生成 HTML
         const productHTML = `
           <li class="product-item wow fadeInUp product-item rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ts-6 style-01 post-30 product type-product status-publish has-post-thumbnail product_cat-light product_cat-bed product_cat-specials product_tag-light product_tag-table product_tag-sock last instock featured downloadable shipping-taxable purchasable product-type-simple"
@@ -38,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <span class="review">(${product.reviews})</span>
                 </div>
                 <span class="price"><span class="rustrot-Price-amount amount"><span
-                    class="rustrot-Price-currencySymbol">$</span>${product.price}</span></span>
+                    class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}</span></span>
                 <div class="rustrot-product-details__short-description">
                   <p>${product.description}</p>
                   <ul>

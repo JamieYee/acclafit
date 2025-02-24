@@ -76,9 +76,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 // 动态生成 Tags
                 populateLinks('.tagged_as', 'Tags', product.tags);
 
+
+                const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+                // 根据 currencySymbol 修改价格
+                let modifiedPrice = product.price;
+                if (currencySymbol === "£") {
+                    modifiedPrice = 89.99;
+                }
                 // 这里你可以继续填充其他部分，如产品标题、价格等
                 document.querySelector('.page-title').textContent = product.name;
-                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${product.price}`;
+                document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}`;
                 document.querySelector('.stock.in-stock span').textContent = product.availability;
                 document.querySelector('.sku').textContent = product.sku;
                 document.querySelector('input[name="product_id"]').value = product.id;
@@ -204,6 +211,12 @@ function reloadScripts(scriptUrls) {
 
 
 function renderProduct(product, container) {
+    const currencySymbol = localStorage.getItem('selectedCurrency') || "$"; // 默认货币符号为美元
+    // 根据 currencySymbol 修改价格
+    let modifiedPrice = product.price;
+    if (currencySymbol === "£") {
+        modifiedPrice = 89.99;
+    } 
     const productItem = document.createElement('div');
     productItem.classList.add(
         'product-item', 'style-01', 'post-27', 'product', 'type-product',
@@ -235,7 +248,7 @@ function renderProduct(product, container) {
                                             class="rating">0</strong> out of 5</span></div>
                                         <span class="review">(0)</span></div>
                                     <span class="price"><span class="rustrot-Price-amount amount"><span
-                                        class="rustrot-Price-currencySymbol">$</span>${product.price}</span>
+                                        class="rustrot-Price-currencySymbol">$</span>${modifiedPrice}</span>
                                     </span>
                                 </div>
                             </div>`;
