@@ -18,14 +18,46 @@ async function setCommon() {
         aboutItem.innerHTML = `
         <a class="rustrot-menu-item-title" title="About" href="about.html">About</a>`;
 
+        // 创建第三个菜单项 Region
+        const regionItem = document.createElement('li');
+        regionItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
+        regionItem.innerHTML = `
+          <a class="rustrot-menu-item-title" title="Region" href="#">Region</a>
+                                                <span class="toggle-submenu"></span>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
+                                                        <a class="rustrot-menu-item-title" title="USD $">USD $</a></li>
+                                                    <li id="menu-item-988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988">
+                                                        <a class="rustrot-menu-item-title" title="GBP £">GBP £</a></li>
+                                                </ul>`;
+
         // 将这两个菜单项添加到 <ul> 中
         menu.appendChild(homeItem);
         menu.appendChild(aboutItem);
+        menu.appendChild(regionItem);
+
+
+        const usdItem = regionItem.querySelector('#menu-item-987 a');
+        const gbpItem = regionItem.querySelector('#menu-item-988 a');
+
+        usdItem.addEventListener('click', function (event) {
+            event.preventDefault();  // 防止跳转
+            localStorage.setItem('selectedCurrency', '$');
+            // 刷新页面
+            location.reload();  // 刷新当前页面
+        });
+
+        gbpItem.addEventListener('click', function (event) {
+            event.preventDefault();  // 防止跳转
+            localStorage.setItem('selectedCurrency', '£');
+            // 刷新页面
+            location.reload();  // 刷新当前页面
+        });
     }
 
     // 定义新的联系方式
     const newContactInfo = {
-        currency: "$",
+        currency: localStorage.getItem('selectedCurrency')|| "$",
         band: "BUZHIWU",
         bandSite: "https://www.buzhiwu.com",
         phone: "(+44) 7496 274719",
