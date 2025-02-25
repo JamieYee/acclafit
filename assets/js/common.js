@@ -6,52 +6,64 @@ async function setCommon() {
     if (menu) {
         menu.innerHTML = '';
 
-        // 创建第一个菜单项 Home
-        const homeItem = document.createElement('li');
-        homeItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
-        homeItem.innerHTML = `
-        <a class="rustrot-menu-item-title" title="Home" href="index.html">Home</a>`;
+        // 创建菜单项
+        const menuItems = [
+            { title: 'Home', href: 'index.html' },
+            { title: 'About', href: 'about.html' },
+            { title: 'Region', href: '#', isRegion: true }
+        ];
 
-        // 创建第二个菜单项 About
-        const aboutItem = document.createElement('li');
-        aboutItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
-        aboutItem.innerHTML = `
-        <a class="rustrot-menu-item-title" title="About" href="about.html">About</a>`;
+        // 创建并添加菜单项
+        menuItems.forEach(item => {
+            const listItem = document.createElement('li');
+            listItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
 
-        // 创建第三个菜单项 Region
-        const regionItem = document.createElement('li');
-        regionItem.classList.add('menu-item', 'menu-item-type-post_type', 'menu-item-object-megamenu', 'menu-item-230');
-        regionItem.innerHTML = `
-          <a class="rustrot-menu-item-title" title="Region" href="#">Region</a>
-                                                <span class="toggle-submenu"></span>
-                                                <ul role="menu" class="submenu">
-                                                    <li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
-                                                        <a class="rustrot-menu-item-title" title="USD $">USD $</a></li>
-                                                    <li id="menu-item-988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988">
-                                                        <a class="rustrot-menu-item-title" title="GBP £">GBP £</a></li>
-                                                </ul>`;
+            if (item.isRegion) {
+                listItem.innerHTML = `
+                <a class="rustrot-menu-item-title" title="${item.title}" href="${item.href}">${item.title}</a>
+                <span class="toggle-submenu"></span>
+                <ul role="menu" class="submenu">
+                    <li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987">
+                        <a class="rustrot-menu-item-title" title="UK">UK</a>
+                    </li>
+                    <li id="menu-item-988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988">
+                        <a class="rustrot-menu-item-title" title="US">US</a>
+                    </li>
+                    <li id="menu-item-989" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-989">
+                        <a class="rustrot-menu-item-title" title="DE">DE</a>
+                    </li>
+                </ul>
+            `;
+            } else {
+                listItem.innerHTML = `
+                <a class="rustrot-menu-item-title" title="${item.title}" href="${item.href}">${item.title}</a>
+            `;
+            }
 
-        // 将这两个菜单项添加到 <ul> 中
-        menu.appendChild(homeItem);
-        menu.appendChild(aboutItem);
-        menu.appendChild(regionItem);
-
-
-        const usdItem = regionItem.querySelector('#menu-item-987 a');
-        const gbpItem = regionItem.querySelector('#menu-item-988 a');
-
-        usdItem.addEventListener('click', function (event) {
-            event.preventDefault();  // 防止跳转
-            localStorage.setItem('selectedCurrency', '$');
-            // 刷新页面
-            location.reload();  // 刷新当前页面
+            menu.appendChild(listItem);
         });
 
-        gbpItem.addEventListener('click', function (event) {
-            event.preventDefault();  // 防止跳转
-            localStorage.setItem('selectedCurrency', '£');
-            // 刷新页面
-            location.reload();  // 刷新当前页面
+        // 事件委托：为父元素添加点击事件
+        menu.addEventListener('click', function (event) {
+            const target = event.target;
+
+            // 确保点击的是菜单项中的链接
+            if (target.tagName === 'A' && target.closest('.submenu')) {
+                event.preventDefault();  // 防止跳转
+
+                let selectedCurrency = '';
+                if (target.title === 'UK') {
+                    selectedCurrency = '£';
+                } else if (target.title === 'US') {
+                    selectedCurrency = '$';
+                } else if (target.title === 'DE') {
+                    selectedCurrency = '€';
+                }
+
+                // 保存选择的货币符号
+                localStorage.setItem('selectedCurrency', selectedCurrency);
+                location.reload();  // 刷新当前页面
+            }
         });
     }
 
@@ -180,7 +192,7 @@ async function renderCartItems(currencySymbol = '$') {
         let modifiedPrice = product.price;
         if (currencySymbol === "£") {
             modifiedPrice = 89.99;
-        } 
+        }
         const subtotal = cartMap[productId] * modifiedPrice; // 计算小计
         total += subtotal; // 将当前小计累加到总金额
 
