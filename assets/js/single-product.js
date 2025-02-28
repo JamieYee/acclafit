@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelector('.page-title').textContent = product.name;
                 document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${product.price}`;
                 document.querySelector('.stock.in-stock span').textContent = product.availability;
-                document.querySelector('.sku').textContent = product.sku;
+                // document.querySelector('.sku').textContent = product.sku;
                 document.querySelector('input[name="product_id"]').value = product.id;
                 document.querySelector('.single_add_to_cart_button').addEventListener('click', function (event) {
                     event.preventDefault(); // 阻止按钮的默认行为（例如表单提交）
