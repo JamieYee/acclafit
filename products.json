@@ -1,8 +1,8 @@
 [
     {
-        "id": 1,
-        "name": "ASWEE Smart Watch P6 Black",
-        "price": "79.99",
+         "id": 1,
+        "name": "ASWEE P6 Smart Watch",
+        "price": "99.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -47,8 +47,8 @@
     },
     {
         "id": 2,
-        "name": "ASWEE Smart Watch P6 Pink",
-        "price": "79.99",
+        "name": "ASWEE P6 Smart Watch",
+        "price": "99.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -93,8 +93,8 @@
     },
     {
         "id": 3,
-        "name": "ASWEE Smart Watch P6 Starlight",
-        "price": "79.99",
+        "name": "ASWEE P6 Smart Watch",
+        "price": "99.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -139,8 +139,8 @@
     },
     {
          "id": 4,
-        "name": "ASWEE Smart Watch P6 LightBlack",
-        "price": "79.99",
+        "name": "ASWEE P6 Smart Watch",
+        "price": "99.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch, 1.83'' Smart Watches for Men Women with Answer/Make Call, Fitness Tracker with Heart Rate/Sleep Monitor, 123+ Sports, IP68 Waterproof Watch for Android iOS",
@@ -185,8 +185,8 @@
     },
     {
         "id": 5,
-        "name": "ASWEE Smart Watch KM13 Black",
-        "price": "9.99",
+        "name": "ASWEE KM13 Smart Watch",
+        "price": "29.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
@@ -229,8 +229,8 @@
     },
     {
         "id": 6,
-        "name": "ASWEE Smart Watch KM13 Black",
-        "price": "19.99",
+        "name": "ASWEE KM13 Smart Watch",
+        "price": "29.99",
         "category": "new best.sale",
         "availability": "In stock",
         "description": "ASWEE Smart Watch for Men Women, Fitness Watch with Intelligent Reminders and Phone Calls, Activity Trackers with Heart Rate Sleep Monitor, 1.85'' Touch Screen Pedometer for Android iOS",
@@ -273,7 +273,7 @@
     },
     {
         "id": 7,
-        "name": "ASWEE Smart Watch KM13 Black",
+        "name": "ASWEE KM13 Smart Watch",
         "price": "29.99",
         "category": "new best.sale",
         "availability": "In stock",

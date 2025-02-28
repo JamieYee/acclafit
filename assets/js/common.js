@@ -24,14 +24,14 @@ async function setCommon() {
     }
 
     // 定义新的联系方式
-    const newContactInfo = {
-        currency: "£",
-        band: "ASWEE",
-        bandSite: "https://aswee.store",
-        phone: "(+44) 7496 274719",
-        email: "amazonbeboss@gmail.com",
-        address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
-    };
+    const newContactInfo = {
+        currency: "£",
+        band: "ASWEE",
+        bandSite: "https://www.aswee.store",
+        phone: "(+44) 7496 274719",
+        email: "amazonbeboss@gmail.com",
+        address: "Office 101 32 Threadneedle Street, London, United Kingdom, EC2R 8AY"
+    };
 
     // 遍历所有的文本节点并替换
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);

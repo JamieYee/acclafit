@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelector('.page-title').textContent = product.name;
                 document.getElementById('price').innerHTML = `<span class="rustrot-Price-currencySymbol">$</span>${product.price}`;
                 document.querySelector('.stock.in-stock span').textContent = product.availability;
-                document.querySelector('.sku').textContent = product.sku;
+                // document.querySelector('.sku').textContent = product.sku;
                 document.querySelector('input[name="product_id"]').value = product.id;
                 document.querySelector('.single_add_to_cart_button').addEventListener('click', function (event) {
                     event.preventDefault(); // 阻止按钮的默认行为（例如表单提交）
@@ -117,12 +117,38 @@ document.addEventListener("DOMContentLoaded", function () {
                     featureList.appendChild(liElement);
                 });
 
+                //新增描述
+                const imageListContainer = document.querySelector('.image-list-container');
+                // 检查 description 数组是否为空
+                let htmlContent = '';  // 用来保存生成的HTML内容
+                if (Array.isArray(product.descriptionImages) && product.descriptionImages.length > 0) {
+                    // 使用 innerHTML 动态生成图片列表
+                    product.descriptionImages.forEach(imageSrc => {
+                        htmlContent += `<div class="container-table">
+                                            <div class="container-cell">
+                                                <div class="az_single_image-wrapper az_box_border_grey">
+                                                    <img src="${imageSrc}" alt="Description image" class="az_single_image-img attachment-full">
+                                                </div>
+                                            </div>
+                                        </div> `;
+                    });
+                    // 设置容器的 innerHTML 为生成的 HTML 内容
+                    imageListContainer.innerHTML = htmlContent;
+                } else {
+                    htmlContent += `
+                    <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+                        <p style="text-align: center; font-size: 16px; color: #666;">
+                            Currently, there are no images available for this description. Please check back later for updates or contact support if you need further assistance.
+                        </p>
+                    </div> `;
+                    // 如果 description 数组为空，不显示容器
+                    imageListContainer.innerHTML = htmlContent;
+                }
                 // 加载另一个 JS 文件
                 reloadScripts(['assets/js/mobilemenu.js', 'assets/js/common.js']);
             } else {
                 console.log('Product not found');
             }
-
         })
         .catch(error => console.error('Error loading products:', error));
 
